@@ -7,7 +7,7 @@
         Register
       </h2>
 
-      <form @submit.prevent="submitform" class="w-full">
+      <form @submit.prevent="submitform" class="font-light w-full">
         <div>
           <label for="name">Username</label>
           <input

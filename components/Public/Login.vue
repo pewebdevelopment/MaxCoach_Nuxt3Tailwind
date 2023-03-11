@@ -5,7 +5,7 @@
         Login
       </h2>
 
-      <form @submit.prevent="submitform" class="w-full">
+      <form @submit.prevent="submitform" class="font-light w-full">
         <div>
           <label for="name">Username or Email</label>
           <input
@@ -30,7 +30,7 @@
 
         <div class="flex justify-between items-center mt-4">
           <div class="flex items-center">
-            <input class="mr-2" type="checkbox" name="" id="rememberme" />
+            <input class="mr-2 w-4 h-4" type="checkbox" name="" id="rememberme" />
             <label for="rememberme">Remember me</label>
           </div>
 
