@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full m-0 bg-[#111] py-16 flex justify-center items-center relative">
+  <div class="w-full m-0 bg-[#EAE1D6] dark:bg-[#111] py-16 flex justify-center items-center relative">
     <div class="w-11/12 flex flex-col justify-center items-center">
       <div class="w-8/12 md:w-6/12 mb-[60px]">
         <headers>
@@ -26,9 +26,9 @@
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
         height="100"
-        class="w-full h-full"
+        class="w-full h-full fill-white"
       >
-        <path d="M 0 0 L100 0 Q 50 200 0 0"></path>
+        <!-- <path d="M 0 0 L100 0 Q 50 200 0 0"></path> -->
       </svg>
     </div>
   </div>

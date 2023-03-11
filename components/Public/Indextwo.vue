@@ -2,7 +2,7 @@
 
 
 <template>
-  <div class="bg-[#161821] pb-14">
+  <div class="dark:bg-[#161821] pb-14">
     <!-- <div class="bg-white"> -->
     <div class="mx-6 md:mx-[100px]">
       <headers>

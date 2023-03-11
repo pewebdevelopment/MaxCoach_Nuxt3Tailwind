@@ -13,6 +13,7 @@
         h-auto
         absolute
         bg-white
+        dark:bg-[#161821]
       "
     >
       <div
@@ -49,6 +50,7 @@
                   font-medium
                   2xl:text-[16px]
                   flex items-center leading-snug text-secondary
+                  dark:text-white
                 "
                 href="#!"
                 id="nav-1"
@@ -89,6 +91,8 @@
                   group-focus-within:opacity-100
                   group-focus-within:mt-0
                   group-focus-within:pointer-events-auto
+                  dark:bg-[#161821]
+                  dark:text-white
                 "
               >
                 <div
@@ -101,6 +105,7 @@
                         class="
                           leading-relaxed block font-medium py-2
                           hover:text-heading
+                          dark:hover:text-primary
                         "
                         href="/"
                         >MaxCoach Education<span
@@ -130,6 +135,7 @@
                         class="
                           leading-relaxed block font-medium py-2
                           hover:text-heading
+                          dark:hover:text-primary
                         "
                         href="/frontend-template/home/courseportal"
                         >Course Portal</a
@@ -140,6 +146,7 @@
                         class="
                           leading-relaxed block font-medium py-2
                           hover:text-heading
+                          dark:hover:text-primary
                         "
                         href="/frontend-template/home/distantlearning"
                         >Distant Learning<span
@@ -169,6 +176,7 @@
                         class="
                           leading-relaxed block font-medium py-2
                           hover:text-heading
+                          dark:hover:text-primary
                         "
                         href="/frontend-template/home/multimediapedagogy"
                         >Multimedia Pedagogy</a
@@ -179,6 +187,7 @@
                         class="
                           leading-relaxed block font-medium py-2
                           hover:text-heading
+                          dark:hover:text-primary
                         "
                         href="/frontend-template/home/modernschooling"
                         >Modern Schooling</a
@@ -189,6 +198,7 @@
                         class="
                           leading-relaxed block font-medium py-2
                           hover:text-heading
+                          dark:hover:text-primary
                         "
                         href="/frontend-template/home/remotetraining"
                         >Remote Training</a
@@ -407,6 +417,7 @@
                   font-medium
                   2xl:text-[16px]
                   flex items-center leading-snug text-secondary
+                  dark:text-white
                 "
                 href="#!"
                 id="nav-2"
@@ -443,6 +454,9 @@
                   group-focus-within:opacity-100
                   group-focus-within:mt-0
                   group-focus-within:pointer-events-auto
+                  dark:bg-[#161821]
+                  text-secondary
+                  dark:text-white
                 "
                 role="menu"
               >
@@ -451,7 +465,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -465,7 +478,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -479,7 +491,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -493,7 +504,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -507,7 +517,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -532,6 +541,7 @@
                   font-medium
                   2xl:text-[16px]
                   flex items-center leading-snug text-secondary
+                  dark:text-white
                 "
                 href="#!"
                 id="nav-3"
@@ -568,6 +578,8 @@
                   group-focus-within:opacity-100
                   group-focus-within:mt-0
                   group-focus-within:pointer-events-auto
+                  dark:bg-[#161821]
+                  dark:text-white
                 "
                 role="menu"
               >
@@ -576,7 +588,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -590,7 +601,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -604,7 +614,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -671,6 +680,7 @@
                   font-medium
                   2xl:text-[16px]
                   flex items-center leading-snug text-secondary
+                  dark:text-white
                 "
                 href="#!"
                 id="nav-4"
@@ -707,6 +717,9 @@
                   group-focus-within:opacity-100
                   group-focus-within:mt-0
                   group-focus-within:pointer-events-auto
+                  dark:bg-[#161821]
+                  text-secondary
+                  dark:text-white
                 "
                 role="menu"
               >
@@ -715,7 +728,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -729,7 +741,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -754,6 +765,7 @@
                   font-medium
                   2xl:text-[16px]
                   flex items-center leading-snug text-secondary
+                  dark:text-white
                 "
                 href="#!"
                 id="nav-5"
@@ -790,6 +802,9 @@
                   group-focus-within:opacity-100
                   group-focus-within:mt-0
                   group-focus-within:pointer-events-auto
+                  dark:bg-[#161821]
+                  text-secondary
+                  dark:text-white
                 "
                 role="menu"
               >
@@ -798,7 +813,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -826,7 +840,6 @@
                     class="
                       flex
                       items-center
-                      text-secondary
                       px-7.5
                       py-2
                     "
@@ -864,6 +877,7 @@
                   font-medium
                   2xl:text-[16px]
                   flex items-center leading-snug text-secondary
+                  dark:text-white
                 "
                 id="nav-6"
                 role="menuitem"
@@ -874,13 +888,21 @@
             </li>
           </ul>
         </nav>
+
         <div class="flex justify-end items-center">
+          <div class="inline-block px-2.5 py-1.5 dark:text-white text-dark-50">
+            <i @click="setDarkMode(true)" v-show="!darkMode" class="far fa-moon text-lg"></i>
+            <i @click="setDarkMode(false)" v-show="darkMode" class="far fa-sunrise text-lg"></i>
+          </div>
+
           <a
-            class="inline-block px-2.5 py-1.5 text-dark-50"
+            class="inline-block px-2.5 py-1.5 text-dark-50 dark:text-white"
             aria-label="User Profile"
             href="/profile"
             ><i class="far fa-user-circle text-lg"></i
           ></a>
+          
+
           <div class="hidden md:block md:max-w-[250px] md:pl-2.5">
             <form class="relative">
               <label for="search" class="sr-only">Search For</label
@@ -898,6 +920,7 @@
                   text-body
                   border
                   border-gray-200
+                  dark:border-gray-500
                   placeholder-body
                   focus:shadow-none
                   focus:outline-0
@@ -906,6 +929,8 @@
                   focus:border-primary
                   focus:border-primary
                   bg-gray-200 max-h-[48px] pr-[50px]
+                  dark:bg-black
+                  dark:text-white
                 "
                 id="search"
                 name="search"
@@ -1098,3 +1123,10 @@
     <div class="h-20"></div>
   </header>
 </template>
+<script setup>
+import { useStyleStore } from '@/stores/style';
+import { storeToRefs } from "pinia";
+const styleStore = useStyleStore()
+const { darkMode } = storeToRefs(styleStore)
+const { setDarkMode } = styleStore 
+</script>

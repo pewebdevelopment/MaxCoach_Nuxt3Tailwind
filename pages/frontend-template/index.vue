@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative font-body">
     <indexone />
     <indextwo />
     <indexthree />
