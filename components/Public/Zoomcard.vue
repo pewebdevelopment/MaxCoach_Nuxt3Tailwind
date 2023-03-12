@@ -5,15 +5,15 @@
     <div
       v-for="zoom in zoommeetings"
       :key="zoom.id"
-      class="w-12/12 mb-[30px] rounded-md overflow-hidden max-w-full min-w-[300px] text-white hover:scale-105 ease-in-out duration-150 hover:drop-shadow-md hover:shadow-gray-900 hover:shadow-lg"
+      class="w-12/12 mb-[30px] rounded overflow-hidden max-w-full min-w-[300px] dark:text-white hover:scale-105 ease-in-out duration-150 hover:drop-shadow-sm hover:shadow-gray-900 hover:shadow-lg"
     >
-      <div class="">
-        <div class="h-[inherit] bg-gray-500">
-          <img src="/images/event/370/event1.jpg" alt="" />
+      <div class="cursor-pointer">
+        <div class="h-[inherit] bg-gray-500 flex">
+          <img src="/images/event/370/event1.jpg" class="object-contain mx-auto" alt="" />
         </div>
 
-        <div class="pad flex flex-col justify-start bg-[#111]">
-          <h4 class="text-left text-white text-[20px] font-bold">
+        <div class="pad flex flex-col justify-start dark:bg-[#111]">
+          <h4 class="text-left text-secondary dark:text-white text-[20px] font-bold">
             {{ zoom.title }}
           </h4>
 
@@ -26,15 +26,15 @@
             {{ zoom.meetingid }}
           </h2>
 
-          <div class="flex justify-start items-center text-[14px] font-light">
+          <div class="flex justify-start items-center text-[14px] font-light text-[#696969] dark:text-white">
             <span class="flex justify-start items-center">
-              <icon class="w-4 h-4 mr-2" name="uil:calender" />
+              <i class="fa fa-calendar-day w-5 h-5"/>
               {{ zoom.date }}
               <span class="font-[600] ml-1"> {{ zoom.time }}</span>
             </span>
 
             <span class="ml-4 flex justify-start items-center">
-              <icon class="w-4 h-4 mr-2" name="uil:clock" />
+              <i class="fa fa-clock w-5 h-5"/>
               {{ zoom.duration }}
             </span>
           </div>

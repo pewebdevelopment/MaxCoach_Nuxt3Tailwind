@@ -5,11 +5,11 @@
     <div
       v-for="event in events"
       :key="event.id"
-      class="hover w-12/12 mb-[30px] rounded-md overflow-hidden max-w-full min-w-[300px] text-white"
+      class="hover w-12/12 mb-[30px] rounded-md overflow-hidden max-w-full min-w-[300px] dark:text-white"
     >
       <div class="">
         <div class="relative h-[inherit]">
-          <img src="/images/event/370/event1.jpg" alt="" class="w-full" />
+          <img src="/images/event/370/event1.jpg" alt="" class="w-full object-contain" />
           <div
             class="event-overlay-background flex items-center justify-center"
           >
@@ -21,22 +21,22 @@
           </div>
         </div>
 
-        <div class="pad flex flex-col justify-center items-center bg-[#111]">
+        <div class="pad flex flex-col justify-center items-center dark:bg-[#111]">
           <h2
             class="text-center text-[#20ad96] text-[15px] font-[500] my-3 leading-[2px] uppercase"
           >
             {{ event.date }}
           </h2>
 
-          <h4 class="text-center text-white text-[20px] font-bold">
+          <h4 class="text-center text-[20px] font-bold">
             {{ event.title }}
           </h4>
 
           <div
-            class="flex justify-start items-center mt-5 text-[14px] font-light"
+            class="flex justify-start items-center mt-5 text-[14px]"
           >
-            <span class="flex justify-centere items-center">
-              <icon class="w-4 h-4 mr-2" name="uil:map-marker" />
+            <span class="flex dark:text-[#fff] text-[#696969] justify-center items-center">
+              <i class="fa fa-location-circle w-5 h-5"/>
               {{ event.location }}
             </span>
           </div>

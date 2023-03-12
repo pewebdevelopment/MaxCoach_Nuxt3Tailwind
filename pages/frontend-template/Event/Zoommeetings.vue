@@ -1,14 +1,16 @@
 <template>
-  <div class="bg-[#161821] w-12/12 px-24">
-    <div class="pt-[100px] pb-[60px]">
-      <courseheader>
-        <template v-slot:title>Zoom Meetings</template>
-      </courseheader>
-    </div>
+  <div class="font-body dark:bg-[#161821] w-12/12 px-24">
+    <div class="container">
+      <div class="pt-[100px] pb-[60px]">
+        <courseheader>
+          <template v-slot:title>Zoom Meetings</template>
+        </courseheader>
+      </div>
 
-    <div class="pb-[100px] px-[80px]">
-      <zoomcard />
-      <loadmorebtn />
+      <div class="pb-[100px] px-[80px]">
+        <zoomcard />
+        <loadmorebtn />
+      </div>
     </div>
   </div>
 </template>
