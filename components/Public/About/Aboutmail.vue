@@ -7,7 +7,7 @@
       </template>
     </headers>
 
-    <div class="text-[18px] text-center mb-14 text-[#ddd]">
+    <div class="text-[18px] text-center mb-14 bg:text-[#ddd] text-[#696969]">
       Enter your email address to register to our newsletter subscription <br />
       delivered on a regular basis!
     </div>
@@ -16,7 +16,7 @@
       class="flex flex-col sm:flex-row items-center justify-start sm:justify-center min-h-[52px]"
     >
       <input
-        class="inputstyle h-[56px] w-10/12 sm:w-8/12 md:w-4/12"
+        class="border-1 border-[#20AD96] focus:ring-0 focus:border-[#20AD96] h-[56px] dark:bg-black text-[#696969] bg-[#f5f5f5] w-10/12 sm:w-8/12 md:w-4/12"
         placeholder="Your E-mail"
         type="email"
         name=""

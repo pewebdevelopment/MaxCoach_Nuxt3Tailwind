@@ -2,7 +2,7 @@
 
 
 <template>
-  <div class="bg-[#111] pb-14">
+  <div class="pb-14">
     <!-- <div class="bg-white"> -->
     <div class="mx-6 md:mx-[100px]">
       <headers class="flex flex-col items-center justify-center text-center">

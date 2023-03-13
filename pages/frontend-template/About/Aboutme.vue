@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#111] pt-[100px]">
+  <div class="text-body dark:bg-[#111] bg-[#f5f5f5] pt-[100px]">
     <aboutone />
 
     <div class="mb-[-140px] relative flex justify-center items-center">
@@ -15,14 +15,13 @@
       />
     </div>
 
-    <div class="">
+    <div class="fill-white dark:fill-[#161821]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
         height="100"
         width="100%"
-        fill="#161821"
       >
         <path
           class="elementor-shape-fill"
@@ -31,7 +30,7 @@
       </svg>
     </div>
 
-    <div class="blue">
+    <div class="bg-white dark:blue">
       <abouttwo />
     </div>
   </div>

@@ -6,7 +6,7 @@
       <h2 class="text-[48px] text-[#20AD96] font-extrabold">
         {{ rate.number }}
       </h2>
-      <h4 class="title">{{ rate.title }}</h4>
+      <h4 class="dark:text-white text-[#3f3a64] title">{{ rate.title }}</h4>
     </div>
   </div>
 </template>
@@ -43,7 +43,6 @@ learningrates: [
 <style scoped>
 .title {
   margin-top: 14px;
-  color: white;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
