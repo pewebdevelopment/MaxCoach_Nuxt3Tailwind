@@ -8,20 +8,20 @@
       />
 
       <div>
-        <div class="p-8 pl-0 pb-10 blue rounded-b-md">
+        <div class="p-8 pl-0 pb-10 dark:blue rounded-b-md">
           <span
-            class="text-[15px] text-[#8C89A2] tracking-[1px] uppercase leading-[1.74] mb-1"
+            class="text-[15px] dark:text-[#8C89A2] text-[#696969] tracking-[1px] uppercase leading-[1.74] mb-1"
           >
             {{ blog.bio }}</span
           >
           <h3
-            class="text-[24px] text-white hover: font-extrabold leading-[1.5] mb-1"
+            class="text-[24px] dark:text-white hover: font-extrabold leading-[1.5] mb-1"
           >
             {{ blog.title }}
           </h3>
 
           <div
-            class="flex justify-start items-center mt-5 text-[14px] font-light text-[#ddd]"
+            class="flex justify-start items-center mt-5 text-[14px] font-light dark:text-[#ddd] text-[#696969]"
           >
             <span class="flex justify-center items-center mr-4">
               <img
@@ -43,7 +43,7 @@
             </span>
           </div>
 
-          <div class="text-[15px] text-[#ddd] leading-[1.74] my-4">
+          <div class="text-[15px] dark:text-[#ddd] text-[#696969] leading-[1.74] my-4">
             {{ blog.summary }}
           </div>
 
@@ -53,13 +53,13 @@
             >
               Reead more
             </button>
-            <div class="flex items-center text-[#ddd]">
+            <div class="flex items-center dark:text-[#ddd] text-[#696969]">
               Share this post
 
               <span
-                class="border-[2px] border-[#555] rounded-[50%] w-12 h-12 flex justify-center items-center ml-4"
+                class="shadow border border-[#ddd] rounded-[50%] w-12 h-12 flex justify-center items-center ml-4"
               >
-                <icon class="w-5 h-5 text-[#20ad96]" name="uil:share-alt" />
+                <i class="w-5 h-5 text-[#20ad96] fa fa-share" name="uil:share-alt" />
               </span>
             </div>
           </div>

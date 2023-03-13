@@ -1,22 +1,24 @@
 <template>
-  <div class="bg-[#161821] w-12/12 px-24">
-    <div class="py-[100px]">
-      <courseheader>
-        <template v-slot:title>Blog Grid</template>
-      </courseheader>
-    </div>
+  <div class="font-body dark:bg-[#161821] w-12/12 px-24">
+    <div class="container">
+      <div class="py-[50px]">
+        <courseheader>
+          <template v-slot:title>Blog Grid</template>
+        </courseheader>
+      </div>
 
-    <div class="pb-[100px]">
-      <Blogcard />
+      <div class="pb-[100px]">
+        <Blogcard />
 
-      <!-- pagination -->
-      <div class="flex justify-center">
-        <ul class="flex flex-row text-white">
-          <li class="page-item"><a href="#">Prev</a></li>
-          <li class="page-item active"><a href="#">1</a></li>
-          <li class="page-item"><a href="#">2</a></li>
-          <li class="page-item"><a href="#">Next</a></li>
-        </ul>
+        <!-- pagination -->
+        <div class="flex justify-center">
+          <ul class="flex flex-row dark:text-white">
+            <li class="page-item"><a href="#">Prev</a></li>
+            <li class="page-item active"><a href="#">1</a></li>
+            <li class="page-item"><a href="#">2</a></li>
+            <li class="page-item"><a href="#">Next</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

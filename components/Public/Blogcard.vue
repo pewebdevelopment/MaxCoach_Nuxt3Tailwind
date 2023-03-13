@@ -5,27 +5,27 @@
     <div
       v-for="course in courses"
       :key="course.id"
-      class="w-12/12 rounded-md min-w-[300px] max-w-[370px] text-white hover:scale-105 ease-in-out duration-150 hover:drop-shadow-md hover:shadow-gray-900 hover:shadow-lg"
+      class="w-12/12 rounded min-w-[300px] max-w-[370px] dark:text-white hover:scale-105 ease-in-out duration-150 hover:drop-shadow-sm hover:shadow-gray-900 hover:shadow-sm"
     >
       <div class="">
         <div class="h-[229px] rounded-md">
           <div class="thumbnail">
             <a href="blog/12-essential-bodyweight-exercises" class="image"
               ><img
-                class="rounded-md max-w-[376px]"
+                class="rounded-md object-contain"
                 src="/images/blog/370/blog-1.jpg"
             /></a>
           </div>
         </div>
 
-        <div class="p-8 pl-0 pb-10 blue rounded-b-md">
+        <div class="p-8 pl-8 pb-10 dark:blue rounded-b-md">
           <span
             class="text-[15px] text-[#8C89A2] tracking-[1px] uppercase leading-[1.74] mb-1"
           >
             {{ course.bio }}</span
           >
           <h3
-            class="text-[24px] text-white hover: font-extrabold leading-[1.5] mb-1"
+            class="text-[24px] hover: font-extrabold leading-[1.5] mb-1"
           >
             {{ course.title }}
           </h3>
@@ -34,12 +34,12 @@
             class="flex justify-start items-center mt-5 text-[14px] font-light"
           >
             <span class="flex justify-centere items-center">
-              <icon class="w-4 h-4 mr-2" name="uil:calender" />
+              <i class="fa fa-calendar-day h-5 w-5"/>
               {{ course.date }}
             </span>
 
-            <span class="ml-4 flex justify-centere items-center">
-              <icon class="w-4 h-4 mr-2" name="uil:eye" />
+            <span class="ml-4 flex justify-center items-center">
+              <i class="fa fa-clock h-5 w-5" />
               {{ course.views }}
             </span>
           </div>
