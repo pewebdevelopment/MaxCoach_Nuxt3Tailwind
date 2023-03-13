@@ -47,7 +47,6 @@
             underline
             text-center text-[#20AD96]
             font-bold
-            flex
             items-center
             leading-4
           "

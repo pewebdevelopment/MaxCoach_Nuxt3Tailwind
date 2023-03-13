@@ -1,12 +1,12 @@
 <template>
-  <div class="blue py-[100px] px-5 md:px-[100px]">
-    <h2 class="title">Login Register</h2>
+  <div class="font-body py-[100px] bg-white dark:bg-[#161821] blue px-5 md:px-[100px]">
+    <h2 class="title text-black dark:text-white">Login Register</h2>
 
     <div
-      class="flex flex-col lg:flex-row items-start justify-center lg:justify-between gap-4"
+      class="flex flex-col lg:flex-row items-start justify-center xl:justify-evenly lg:justify-between gap-3"
     >
-      <login />
-      <register />
+      <Login />
+      <Register />
     </div>
   </div>
 </template>
@@ -25,6 +25,5 @@ definePageMeta({
   text-align: center;
   font-weight: 700;
   line-height: 1.3;
-  color: white;
 }
 </style>

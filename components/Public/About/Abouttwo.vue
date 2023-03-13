@@ -1,10 +1,10 @@
 <template>
-  <div class="blue">
+  <div class="dark:blue">
     <div
       class="py-[100px] mx-[100px] flex flex-col justify-center items-center"
     >
       <headers
-        class="mt-[100px] w-8/12 flex flex-col items-center justify-center text-center"
+        class="mt-[100px] container w-8/12 flex flex-col items-center justify-center text-center"
       >
         <template v-slot:headerone
           >equip yourself with the power of Education</template
@@ -23,7 +23,7 @@
       <!-- <div></div> -->
     </div>
 
-    <div class="bg-[#111] py-[100px]">
+    <div class="dark:bg-[#111] bg-[#f5f5f5] py-[100px]">
       <aboutrates />
     </div>
 

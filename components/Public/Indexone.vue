@@ -39,14 +39,15 @@
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
         height="100"
-        class="rot w-full bg-[#EAE1D6]"
+        class="rot w-full bg-[#EAE1D6] dark:fill-[#161821] fill-white"
       >
-        <path d="M 0 0 L100 0 Q 50 200 0 0" fill="#161821"></path>
+        <path d="M 0 0 L100 0 Q 50 200 0 0"></path>
       </svg>
     </span>
   </div>
 </template>
-
+<script setup>
+</script>
 <style scoped>
 .background {
   background-image: url("~@images/intro/intro1/bg-1.jpg");

@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-end lg:py-24">
-    <div class="relative bg-black w-full lg:w-10/12 flex flex-col lg:flex-row">
+    <div class="relative dark:bg-black w-full lg:w-10/12 flex flex-col lg:flex-row">
       <div class="hidden lg:block lg:absolute lg:left-[-134px] lg:top-[60px]">
         <img src="/images/others/teracher-quote-1.jpeg" alt="image" />
       </div>
@@ -11,7 +11,8 @@
             class="
               text-[24px]
               md:text-[34px]
-              text-white
+              dark:text-white
+              text-secondary
               font-[700]
               leading-[1.3]
               mb-[25px]
@@ -22,7 +23,7 @@
           <div class="flex flex-col md:flex-row w-12/12">
             <p
               class="
-                text-[24px] text-[#dddddd]
+                text-[24px] dark:text-[#dddddd] text-body
                 font-[500]
                 leading-[1.5]
                 lg:mr-10
@@ -42,7 +43,7 @@
                 class="
                   my-6
                   uppercase
-                  text-[15px] text-[#fff]
+                  text-[15px] dark:text-[#fff]
                   font-[700]
                   tracking-[2px]
                 "
@@ -55,7 +56,7 @@
                   flex
                   justify-center
                   items-center
-                  text-[14px] text-[#fff]
+                  text-[14px] dark:text-[#fff] text-body
                   font-[700]
                   cursor-pointer
                 "

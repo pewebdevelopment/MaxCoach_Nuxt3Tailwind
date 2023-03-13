@@ -1,15 +1,15 @@
 <template>
-  <div class="bg-[#111] rounded-md flex justify-end w-full lg:max-w-[476px]">
-    <div class="w-full py-[60px] px-5 md:px-[56px] rounded-md">
-      <h2 class="text-left text-white font-bold text-[34px] mb-[36px]">
+  <div class="dark:bg-[#111] shadow border dark:border-none rounded-md flex justify-end w-full lg:max-w-[476px]">
+    <div class="w-full py-[30px] px-5 md:px-[56px] rounded-md">
+      <h2 class="text-left dark:text-white font-bold text-[34px] mb-[36px]">
         Login
       </h2>
 
-      <form @submit.prevent="submitform" class="w-full">
+      <form @submit.prevent="submitform" class="font-light w-full dark:text-white">
         <div>
           <label for="name">Username or Email</label>
           <input
-            class="w-full my-2"
+            class="w-full px-[20py] py-[10px] my-2 bg-[#f5f5f5] dark:bg-[#222] placeholder-gray-700"
             type="text"
             placeholder="Username or Email"
             id="name"
@@ -20,7 +20,7 @@
         <div class="mt-4">
           <label for="password">Password</label>
           <input
-            class="w-full my-2"
+            class="w-full px-[20py] py-[10px] my-2 bg-[#f5f5f5] dark:bg-[#222] placeholder-gray-700"
             type="password"
             placeholder="Password"
             id="password"
@@ -30,7 +30,7 @@
 
         <div class="flex justify-between items-center mt-4">
           <div class="flex items-center">
-            <input class="mr-2" type="checkbox" name="" id="rememberme" />
+            <input class="bg-[#f5f5f5] dark:bg-[#222] mr-2 w-4 h-4" type="checkbox" name="" id="rememberme" />
             <label for="rememberme">Remember me</label>
           </div>
 
@@ -69,9 +69,6 @@ methods: {
 </script>
 
 <style scoped>
-label {
-  color: white;
-}
 .icon {
   color: rgb(0, 173, 255);
 }
@@ -82,15 +79,10 @@ label {
 
 input,
 textarea {
-  padding: 10px 20px;
-  background-color: #222;
   border: solid 0.5px #333;
   border-radius: 3px;
   outline: none;
 }
 
-input::placeholder,
-textarea::placeholder {
-  color: #696969;
-}
+
 </style>

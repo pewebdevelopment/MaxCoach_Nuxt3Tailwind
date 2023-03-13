@@ -8,18 +8,18 @@
       class="
         w-12/12
         rounded-md
-        min-w-[300px]
+        min-w-[250px]
         max-w-full
-        text-white
+        dark:text-white
         hover:scale-105
         ease-in-out
         duration-150
-        hover:drop-shadow-md hover:shadow-gray-900 hover:shadow-lg
+        hover:drop-shadow-md hover:shadow-gray-900 hover:shadow
       "
     >
-      <div class="">
-        <div class="h-[229px] bg-gray-500">
-          <img :src="course.image" alt="" class="w-full" />
+      <div class="flex flex-col">
+        <div class="h-[229px] flex">
+          <img :src="course.image" alt="" class="object-contain mx-auto" />
         </div>
 
         <div class="p-10">
@@ -27,12 +27,12 @@
             {{ course.price }}
           </h2>
 
-          <h4 class="text-white text-[20px] font-bold">
+          <h4 class="text-[20px] hover:text-primary font-bold">
             {{ course.title }}
           </h4>
 
           <div
-            class="flex justify-start items-center mt-5 text-[14px] font-light"
+            class="flex justify-start items-center text-[#696969] mt-5 text-[14px] font-light"
           >
             <span class="flex justify-centere items-center">
               <icon class="w-4 h-4 mr-2" name="uil:file-alt" />

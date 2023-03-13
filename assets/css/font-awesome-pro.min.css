@@ -8237,6 +8237,9 @@
 .fad.fa-cloud-sun:after {
     content: "\10f6c4";
 }
+.fad.fa-brightness:after {
+    content: "\10e0c9";
+}
 .fad.fa-cloud-sun-rain:after {
     content: "\10f743";
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="py-[100px] bg-[#161821]">
+  <div class="py-[100px] dark:bg-[#161821]">
     <Signaturecourses />
   </div>
 </template>

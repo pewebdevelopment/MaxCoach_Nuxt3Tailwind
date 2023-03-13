@@ -17,7 +17,7 @@ export const useStyleStore = defineStore("style", {
     overlayStyle: "",
 
     /* Dark mode */
-    darkMode: "",
+    darkMode: false,
   }),
   actions: {
     setStyle(payload) {
@@ -37,24 +37,22 @@ export const useStyleStore = defineStore("style", {
     },
 
     setDarkMode(payload = null) {
-      console.log("setDarkMode");
-      this.darkMode = payload !== null ? payload : !this.darkMode;
-
-      if (typeof localStorage !== "undefined") {
-        localStorage.setItem(darkModeKey, this.darkMode ? "1" : "0");
+      if (payload === null) {
+        const mode = localStorage.getItem('darkMode')
+        if (mode && mode === 'true') {
+          this.darkMode = true
+        } else {
+          this.darkMode = false
+          localStorage.setItem('darkMode', this.darkMode)
+        }
+      } else {
+        this.darkMode = payload
+        localStorage.setItem('darkMode', this.darkMode)
       }
-
-      if (typeof document !== "undefined") {
-        document.body.classList[this.darkMode ? "add" : "remove"](
-          "dark-scrollbars-compat"
-          // "dark-scrollbars"
-
-          // Write code to add dark-scroll bar to the LHS Scroll bar also
-        );
-
-        document.documentElement.classList[this.darkMode ? "add" : "remove"](
-          "dark-scrollbars-compat"
-        );
+      if (this.darkMode) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
       }
     },
   },

@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 
   components: [
     {
-      path: '~/components/FrontEndTemplate',
+      path: '~/components',
       pathPrefix: false,
     },
   ],

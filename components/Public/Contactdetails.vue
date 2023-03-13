@@ -1,30 +1,30 @@
 <template>
   <div class="flex items-start mb-[50px]">
-    <icon class="color" name="uil:map-marker" />
+    <i class="color fa fa-location" name="uil:map-marker" />
     <div>
-      <h4 class="title">Address</h4>
-      <span class="info-text"> Your address goes here</span>
+      <h4 class="title dark:text-white">Address</h4>
+      <span class="info-text dark:text-[#fff]"> Your address goes here</span>
     </div>
   </div>
 
   <div class="flex items-start mb-[50px]">
-    <icon class="color" name="uil:phone" />
+    <i class="color fa fa-phone"/>
     <div>
-      <h4 class="title">Contact</h4>
-      <span class="info-text">Mobile:<strong>0123456789</strong></span
+      <h4 class="title dark:text-white">Contact</h4>
+      <span class="info-text dark:text-[#fff]">Mobile:<strong>0123456789</strong></span
       ><br />
-      <span class="info-text">Hotline:<strong>0123456789</strong></span
+      <span class="info-text dark:text-[#fff]">Hotline:<strong>0123456789</strong></span
       ><br />
-      <span class="info-text">Mail:<strong>demo@example.com</strong></span>
+      <span class="info-text dark:text-[#fff]">Mail:<strong>demo@example.com</strong></span>
     </div>
   </div>
 
   <div class="flex items-start mb-[50px]">
-    <icon class="color" name="uil:clock" />
+    <i class="color fa fa-clock" />
     <div>
-      <h4 class="title">Hour of operation</h4>
-      <span class="info-text">Monday - Friday : 09:00 - 20:00</span><br />
-      <span class="info-text">Sunday & Saturday : 10:30 - 32:00</span>
+      <h4 class="title dark:text-white">Hour of operation</h4>
+      <span class="info-text dark:text-[#fff]">Monday - Friday : 09:00 - 20:00</span><br />
+      <span class="info-text dark:text-[#fff]">Sunday & Saturday : 10:30 - 32:00</span>
     </div>
   </div>
 </template>
@@ -35,14 +35,12 @@
   line-height: 1.3;
   font-weight: 700;
   margin-bottom: 15px;
-  color: white;
 }
 
 .info-text {
   font-size: 15px;
   font-weight: 400;
   font-style: normal;
-  color: #ddd;
   line-height: 30px;
 }
 

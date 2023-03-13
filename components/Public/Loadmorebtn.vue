@@ -12,11 +12,13 @@
             py-3
             px-20
             rounded-md
-            border border-white
+            border
+            dark:border-white
+            shadow
           "
         >
           Load More
-          <icon class="w-4 h-4 ml-3 text-[#20ad96]" name="uil:rotate-360" />
+          <i class="fa fa-ramp-loading h-5 w-5"></i>
         </button>
       </div>
     </div>

@@ -3,7 +3,7 @@
     <div class="px-[6px]">
       <Icon class="icon w-8 h-8" name="uil:sun" />
     </div>
-    <div class="py-[6px] px-[10px]">
+    <div class="py-[6px] px-[10px]">z
       <icon class="icon w-6 h-6" name="uil:user-circle" />
     </div>
     <div

@@ -1,17 +1,17 @@
 <template>
   <div
-    class="bg-[#111] rounded-md flex justify-end w-full md:max-w-full lg:max-w-[576px]"
+    class="dark:bg-[#111] shadow border dark:border-none rounded-md flex justify-end w-full md:max-w-full lg:max-w-[576px]"
   >
-    <div class="w-full py-[60px] px-5 md:px-[56px] rounded-md">
-      <h2 class="text-left text-white font-bold text-[34px] mb-[36px]">
+    <div class="w-full py-[30px] px-5 md:px-[56px] rounded-md">
+      <h2 class="text-left dark:text-white font-bold text-[34px] mb-[36px]">
         Register
       </h2>
 
-      <form @submit.prevent="submitform" class="w-full">
+      <form @submit.prevent="submitform" class="font-light dark:text-white w-full">
         <div>
           <label for="name">Username</label>
           <input
-            class="w-full my-2"
+            class="w-full my-2 bg-[#f5f5f5] dark:bg-[#222] placeholder-gray-700"
             type="text"
             placeholder="Username"
             id="name"
@@ -22,7 +22,7 @@
         <div class="mt-4">
           <label for="email">Email</label>
           <input
-            class="w-full my-2"
+            class="w-full my-2 bg-[#f5f5f5] dark:bg-[#222] placeholder-gray-700"
             type="email"
             placeholder="Email"
             id="email"
@@ -33,7 +33,7 @@
         <div class="mt-4">
           <label for="password">Password</label>
           <input
-            class="w-full my-2"
+            class="w-full my-2 bg-[#f5f5f5] dark:bg-[#222] placeholder-gray-700"
             type="password"
             placeholder="Password"
             id="password"
@@ -88,11 +88,6 @@ methods: {
   font-size: 14px;
   line-height: 1.4;
   margin-bottom: 0;
-  color: #ddd;
-}
-
-label {
-  color: white;
 }
 .icon {
   color: rgb(0, 173, 255);
@@ -105,14 +100,8 @@ label {
 input,
 textarea {
   padding: 10px 20px;
-  background-color: #222;
   border: solid 0.5px #333;
   border-radius: 3px;
   outline: none;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: #696969;
 }
 </style>
