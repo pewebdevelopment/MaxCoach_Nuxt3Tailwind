@@ -2,7 +2,7 @@
   <div class="text-body dark:bg-[#111] bg-[#f5f5f5] pt-[100px]">
     <aboutone />
 
-    <div class="mb-[-140px] relative flex justify-center items-center">
+    <div class="mb-[-140px] relative flex justify-center items-center z-8877">
       <img
         class="image"
         src="/images/about/about-me/video-about-us-2.jpg"
