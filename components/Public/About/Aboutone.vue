@@ -17,11 +17,11 @@
       <div class="w-12/12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <aboutonecard>
           <template v-slot:cardIcon>
-            <img src="/svgs/flag.svg" />
+            <!-- <img src="/svgs/flag.svg" class="card--image" /> -->
+            <Flag :color="styleStore.darkMode ? '#fff' : '#000'"></Flag>
           </template>
           <template v-slot:cardHead>Life Mentoring</template>
-          <template v-slot:cardP
-            >Get some soul healing and guidance for your future career and
+          <template v-slot:cardP>Get some soul healing and guidance for your future career and
             vocational directions.
           </template>
         </aboutonecard>
@@ -31,19 +31,18 @@
             <img src="/svgs/selfdevelopment.svg" />
           </template>
           <template v-slot:cardHead>Self Development</template>
-          <template v-slot:cardP
-            >Develop skills for career of various majors including computer
+          <template v-slot:cardP>Develop skills for career of various majors including computer
             science &amp; language competence.
           </template>
         </aboutonecard>
 
         <aboutonecard>
           <template v-slot:cardIcon>
-            <img src="/svgs/consultancy.svg" />
+            <!-- <img src="/svgs/consultancy.svg" /> -->
+            <Flag></Flag>
           </template>
           <template v-slot:cardHead>Ask Consultancy</template>
-          <template v-slot:cardP
-            >Make a reservation with our special consultant to learn what's best
+          <template v-slot:cardP>Make a reservation with our special consultant to learn what's best
             for your dream career.
           </template>
         </aboutonecard>
@@ -53,8 +52,7 @@
             <img src="/svgs/learning.svg" />
           </template>
           <template v-slot:cardHead>Remote Learning</template>
-          <template v-slot:cardP
-            >Learn from anywhere in the world on desktop, tablet or mobile phone
+          <template v-slot:cardP>Learn from anywhere in the world on desktop, tablet or mobile phone
             with an Internet connection.
           </template>
         </aboutonecard>
@@ -63,6 +61,13 @@
   </div>
 </template>
 
+<script setup>
+// import Flag from '@/assets/svg/';
+import Flag from '@/assets/publicSVGs/Flag.vue';
+import { useStyleStore } from '@/stores/style';
+const styleStore = useStyleStore();
+
+</script>
 
 <style>
 img {
