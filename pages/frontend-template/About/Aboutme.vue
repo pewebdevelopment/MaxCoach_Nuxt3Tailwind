@@ -4,11 +4,18 @@
     <div class="text-body dark:bg-[#111] bg-[#f5f5f5] pt-[100px]">
       <aboutone />
 
+      <div class="mb-[-140px] relative flex justify-center items-center">
+        <div class="max-w-[970px] overflow-hidden">
+          <img class="image hover:scale-110" src="/images/about/about-me/about-me-popup-video-poster.jpeg" alt="image" />
+          <img class="youtube" src="/images/icons/icon-youtube-play.png" alt="icon" />
+        </div>
+      </div>
       <div class="imageWrapper mb-[-140px] relative flex justify-center items-center z-8877 max-w-[1200px] w-full h-56">
-        <kinesis-element class="absolute left-64 top-0 h-32" type="translate" :strength="100" :maxX="50" :originX="-50"
+
+        <!-- <kinesis-element class="absolute left-64 top-0 h-32" type="translate" :strength="100" :maxX="50" :originX="-50"
           :originY="0" :maxY="50">
           <yellow-cloud></yellow-cloud>
-        </kinesis-element>
+        </kinesis-element> -->
 
         <!-- dotted circle -->
         <!-- <kinesis-element class="absolute left-10 bottom-0 h-8" type="translate" :strength="10" maxX="2">
