@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-14">
+  <div class="pb-14 flex justify-center">
     <!-- <div class="bg-white"> -->
     <div class="mx-6 md:mx-[100px] max-w-[1200px]">
       <headers class="flex flex-col items-center justify-center text-center">
