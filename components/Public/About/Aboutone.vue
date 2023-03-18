@@ -1,10 +1,7 @@
-
-
-
 <template>
   <div class="pb-14">
     <!-- <div class="bg-white"> -->
-    <div class="mx-6 md:mx-[100px]">
+    <div class="mx-6 md:mx-[100px] max-w-[1200px]">
       <headers class="flex flex-col items-center justify-center text-center">
         <template v-slot:headerone>Education for everyone</template>
         <template v-slot:headertwo>
