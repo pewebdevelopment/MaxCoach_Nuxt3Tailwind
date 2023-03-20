@@ -20,6 +20,7 @@ module.exports = {
     extend: {
       zIndex: {
         "-1": "-1",
+        8877:8863
       },
       spacing: {
         1.3: "0.313rem",
@@ -164,7 +165,7 @@ module.exports = {
         "fade-in": "fade-in 250ms ease-in-out",
       },
       fontFamily: {
-        body: ["Gilroy", "sans-serif"],
+        body: ["Gilroy"],
         heading: ["Gilroy", "sans-serif"],
         playfair: ["Playfair Display", "serif"],
         rossela: ["Conv_Rossela-Demo-2", "serif"],

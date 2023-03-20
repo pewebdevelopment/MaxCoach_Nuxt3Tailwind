@@ -3,7 +3,7 @@
     id="trans"
     class="px-[20px] group cursor-pointer pt-[40px] pb-[30px] w-12/12 md:max-w-[300px] m-[4px] dark:hover:bg-[#3f3a64] hover:bg-white rounded-md flex flex-col justify-center items-center text-center"
   >
-    <span class="mb-[24px] bg-[#8C89A2] p-2 w-full flex justify-center">
+    <span class="mb-[24px] p-2 w-full flex justify-center">
       <slot name="cardIcon"></slot>
     </span>
 
