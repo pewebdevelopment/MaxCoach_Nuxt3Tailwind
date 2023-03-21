@@ -1,6 +1,6 @@
 <template>
   <div class="container py-16 relative">
-    <div>
+    <div ref="animate">
       <headers class="mb-[60px]">
         <template v-slot:headerone
           >the combination of all senses into learning</template
@@ -44,3 +44,12 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+  mounted() {
+    const twoScroll = this.$twoScroll();
+    twoScroll.reveal(this.$refs.animate);
+  },
+};
+</script>

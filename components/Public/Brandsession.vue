@@ -1,10 +1,24 @@
 <template>
   <div class="py-[100px] bg-[#161821]">
-    <div class="px-20">
-      <div class=""></div>
+    <div class=" px-40">
+      <ImageCarousel :images="[
+        'images/brand/client-logo-01.png',
+        'images/brand/client-logo-02.png',
+        'images/brand/client-logo-03.png',
+        'images/brand/client-logo-04.png',
+        'images/brand/client-logo-05.png',
+        'images/brand/client-logo-06.png',
+        'images/brand/client-logo-07.png',
+      ]"/>
     </div>
   </div>
 </template>
 
-<style>
-</style>
+<script>
+import ImageCarousel from '@/components/public/ImageCarousel.vue';
+export default {
+  components: {
+    ImageCarousel,
+  },
+}
+</script>

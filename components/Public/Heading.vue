@@ -1,5 +1,5 @@
 <template>
-  <header class="header relative">
+  <header class="header relative " style="position: fixed; top: 0; left: 0; width: 100%; z-index: 999;">
     <div class="
           header-inner flex items-center 
           py-[19px]
@@ -20,8 +20,8 @@
             items-center px-3.8
             3xl:px-37
           ">
-        <a class="inline-block max-w-[120px] sm:max-w-[158px]" href="/"><img src="/images/dark-logo.png" alt="Logo"
-            width="158" height="26" /></a>
+        <NuxtLink class="inline-block max-w-[120px] sm:max-w-[158px]" to="/frontend-template"><img :src="darkMode?'/images/logo/light-logo.png':'/images/logo/dark-logo.png'" alt="Logo"
+            width="158" height="26" /></NuxtLink>
         <nav aria-label="Main Menu" class="relative mx-auto hidden xl:block">
           <ul aria-label="Main Menu" role="menubar">
             <li class="
@@ -29,13 +29,13 @@
                   2xl:px-[17px]
                   py-[29px] group
                 " role="none">
-              <a rel="noopener noreferrer" class="
+              <NuxtLink rel="noopener noreferrer" class="
                     font-medium
                     2xl:text-[16px]
                     flex items-center leading-snug text-secondary
                     dark:text-white
-                  " href="#!" id="nav-1" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Home<i
-                  class="fa fa-chevron-down ml-2 text-xs"></i></a>
+                  " to="#!" id="nav-1" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Home<i
+                  class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <div class="
                     w-[1170px]
                     flex
@@ -73,11 +73,11 @@
                   <h2 class="sr-only">Group 01</h2>
                   <ul>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             dark:hover:text-primary
-                          " href="/">MaxCoach Education<span class="
+                          " to="/frontend-template">MaxCoach Education<span class="
                               inline-flex
                               justify-center
                               items-center
@@ -93,21 +93,21 @@
                               font-bold
                               tracking-wide
                               uppercase
-                            ">hot</span></a>
+                            ">hot</span></NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             dark:hover:text-primary
-                          " href="/frontend-template/home/courseportal">Course Portal</a>
+                          " to="/frontend-template/home/courseportal">Course Portal</NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             dark:hover:text-primary
-                          " href="/frontend-template/home/distantlearning">Distant Learning<span class="
+                          " to="/frontend-template/home/distantlearning">Distant Learning<span class="
                               inline-flex
                               justify-center
                               items-center
@@ -123,28 +123,28 @@
                               font-bold
                               tracking-wide
                               uppercase
-                            ">hot</span></a>
+                            ">hot</span></NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             dark:hover:text-primary
-                          " href="/frontend-template/home/multimediapedagogy">Multimedia Pedagogy</a>
+                          " to="/frontend-template/home/multimediapedagogy">Multimedia Pedagogy</NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             dark:hover:text-primary
-                          " href="/frontend-template/home/modernschooling">Modern Schooling</a>
+                          " to="/frontend-template/home/modernschooling">Modern Schooling</NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             dark:hover:text-primary
-                          " href="/frontend-template/home/remotetraining">Remote Training</a>
+                          " to="/frontend-template/home/remotetraining">Remote Training</NuxtLink>
                     </li>
                   </ul>
                 </div>
@@ -152,11 +152,11 @@
                   <h2 class="sr-only">Group 02</h2>
                   <ul>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             pointer-events-none
-                          " href="/">Health Coaching<span class="
+                          " to="/frontend-template">Health Coaching<span class="
                               inline-flex
                               justify-center
                               items-center
@@ -172,14 +172,14 @@
                               font-bold
                               tracking-wide
                               uppercase
-                            ">coming soon</span></a>
+                            ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             pointer-events-none
-                          " href="/">Gym Coaching<span class="
+                          " to="/frontend-template">Gym Coaching<span class="
                               inline-flex
                               justify-center
                               items-center
@@ -195,14 +195,14 @@
                               font-bold
                               tracking-wide
                               uppercase
-                            ">coming soon</span></a>
+                            ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             pointer-events-none
-                          " href="/">Business<span class="
+                          " to="/frontend-template">Business<span class="
                               inline-flex
                               justify-center
                               items-center
@@ -218,14 +218,14 @@
                               font-bold
                               tracking-wide
                               uppercase
-                            ">coming soon</span></a>
+                            ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             pointer-events-none
-                          " href="/">Artist<span class="
+                          " to="/frontend-template">Artist<span class="
                               inline-flex
                               justify-center
                               items-center
@@ -241,14 +241,14 @@
                               font-bold
                               tracking-wide
                               uppercase
-                            ">coming soon</span></a>
+                            ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             pointer-events-none
-                          " href="/">Kitchen Coach<span class="
+                          " to="/frontend-template">Kitchen Coach<span class="
                               inline-flex
                               justify-center
                               items-center
@@ -264,14 +264,14 @@
                               font-bold
                               tracking-wide
                               uppercase
-                            ">coming soon</span></a>
+                            ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
-                      <a class="
+                      <NuxtLink class="
                             leading-relaxed block font-medium py-2
                             hover:text-heading
                             pointer-events-none
-                          " href="/">Motivation<span class="
+                          " to="/frontend-template">Motivation<span class="
                               inline-flex
                               justify-center
                               items-center
@@ -287,13 +287,13 @@
                               font-bold
                               tracking-wide
                               uppercase
-                            ">coming soon</span></a>
+                            ">coming soon</span></NuxtLink>
                     </li>
                   </ul>
                 </div>
                 <div class="px-3.8 shrink-0 grow-0 w-1/2 basis-1/2">
                   <h2 class="sr-only">Banner</h2>
-                  <a href="/"><img src="/images/menu/mega-menu.jpg" alt="Banner" /></a>
+                  <NuxtLink to="/frontend-template"><img src="/images/others/mega-menu.jpg" alt="Banner" /></NuxtLink>
                 </div>
               </div>
             </li>
@@ -302,13 +302,13 @@
                   2xl:px-[17px]
                   py-[29px] group relative
                 " role="none">
-              <a rel="noopener noreferrer" class="
+              <NuxtLink rel="noopener noreferrer" class="
                     font-medium
                     2xl:text-[16px]
                     flex items-center leading-snug text-secondary
                     dark:text-white
-                  " href="#!" id="nav-2" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Pages<i
-                  class="fa fa-chevron-down ml-2 text-xs"></i></a>
+                  " to="#!" id="nav-2" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Pages<i
+                  class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <ul class="
                     absolute
                     z-20
@@ -340,44 +340,44 @@
                     dark:text-white
                   " role="menu">
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/about/aboutme">About me</a>
+                      " role="menuitem" to="/frontend-template/about/aboutme">About me</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/about/aboutusone">About us 01</a>
+                      " role="menuitem" to="/frontend-template/about/aboutusone">About us 01</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/about/aboutustwo">About us 02</a>
+                      " role="menuitem" to="/frontend-template/about/aboutustwo">About us 02</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/about/contactme">Contact me</a>
+                      " role="menuitem" to="/frontend-template/about/contactme">Contact me</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/about/contactus">Contact us</a>
+                      " role="menuitem" to="/frontend-template/about/contactus">Contact us</NuxtLink>
                 </li>
               </ul>
             </li>
@@ -386,13 +386,13 @@
                   2xl:px-[17px]
                   py-[29px] group relative
                 " role="none">
-              <a rel="noopener noreferrer" class="
+              <NuxtLink rel="noopener noreferrer" class="
                     font-medium
                     2xl:text-[16px]
                     flex items-center leading-snug text-secondary
                     dark:text-white
-                  " href="#!" id="nav-3" role="menuitem" tabindex="0" aria-haspopup="true"
-                aria-expanded="false">Courses<i class="fa fa-chevron-down ml-2 text-xs"></i></a>
+                  " to="#!" id="nav-3" role="menuitem" tabindex="0" aria-haspopup="true"
+                aria-expanded="false">Courses<i class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <ul class="
                     absolute
                     z-20
@@ -423,31 +423,31 @@
                     dark:text-white
                   " role="menu">
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/courses/coursegridone">Courses Grid 01</a>
+                      " role="menuitem" to="/frontend-template/courses/coursegridone">Courses Grid 01</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/courses/coursegridtwo">Courses Grid 02</a>
+                      " role="menuitem" to="/frontend-template/courses/coursegridtwo">Courses Grid 02</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/courses/coursegridthree">Courses Grid 03</a>
+                      " role="menuitem" to="/frontend-template/courses/coursegridthree">Courses Grid 03</NuxtLink>
                 </li>
                 <!-- <li role="none" class="relative">
-                  <a
+                  <NuxtLink
                     class="
                       flex
                       items-center
@@ -456,12 +456,12 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/frontend-template/membership-levels"
+                    to="/frontend-template/membership-levels"
                     >Membership Levels</a
                   >
                 </li>
                 <li role="none" class="relative">
-                  <a
+                  <NuxtLink
                     class="
                       flex
                       items-center
@@ -470,12 +470,12 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/become-a-teacher"
+                    to="/become-a-teacher"
                     >Become a Teacher</a
                   >
                 </li>
                 <li role="none" class="relative">
-                  <a
+                  <NuxtLink
                     class="
                       flex
                       items-center
@@ -484,7 +484,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/profile"
+                    to="/profile"
                     >Profile</a
                   >
                 </li> -->
@@ -495,13 +495,13 @@
                   2xl:px-[17px]
                   py-[29px] group relative
                 " role="none">
-              <a rel="noopener noreferrer" class="
+              <NuxtLink rel="noopener noreferrer" class="
                     font-medium
                     2xl:text-[16px]
                     flex items-center leading-snug text-secondary
                     dark:text-white
-                  " href="#!" id="nav-4" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Event<i
-                  class="fa fa-chevron-down ml-2 text-xs"></i></a>
+                  " to="#!" id="nav-4" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Event<i
+                  class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <ul class="
                     absolute
                     z-20
@@ -533,20 +533,20 @@
                     dark:text-white
                   " role="menu">
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/event/events">Event</a>
+                      " role="menuitem" to="/frontend-template/event/events">Event</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/event/zoommeetings">Zoom Meetings</a>
+                      " role="menuitem" to="/frontend-template/event/zoommeetings">Zoom Meetings</NuxtLink>
                 </li>
               </ul>
             </li>
@@ -555,13 +555,13 @@
                   2xl:px-[17px]
                   py-[29px] group relative
                 " role="none">
-              <a rel="noopener noreferrer" class="
+              <NuxtLink rel="noopener noreferrer" class="
                     font-medium
                     2xl:text-[16px]
                     flex items-center leading-snug text-secondary
                     dark:text-white
-                  " href="#!" id="nav-5" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Blog<i
-                  class="fa fa-chevron-down ml-2 text-xs"></i></a>
+                  " to="#!" id="nav-5" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Blog<i
+                  class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <ul class="
                     absolute
                     z-20
@@ -593,15 +593,15 @@
                     dark:text-white
                   " role="menu">
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/blog/bloggrid">Blog Grid</a>
+                      " role="menuitem" to="/frontend-template/blog/bloggrid">Blog Grid</NuxtLink>
                 </li>
                 <!-- <li role="none" class="relative">
-                  <a
+                  <NuxtLink
                     class="
                       flex
                       items-center
@@ -610,20 +610,20 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/frontend-template/event/events"
+                    to="/frontend-template/event/events"
                     >Blog Grid Sidebar</a
                   >
                 </li> -->
                 <li role="none" class="relative">
-                  <a class="
+                  <NuxtLink class="
                         flex
                         items-center
                         px-7.5
                         py-2
-                      " role="menuitem" href="/frontend-template/blog/blogclassic">Blog Classic</a>
+                      " role="menuitem" to="/frontend-template/blog/blogclassic">Blog Classic</NuxtLink>
                 </li>
                 <!-- <li role="none" class="relative">
-                  <a
+                  <NuxtLink
                     class="
                       flex
                       items-center
@@ -632,7 +632,7 @@
                       py-2
                     "
                     role="menuitem"
-                    href="/blogs/blog-list"
+                    to="/blogs/blog-list"
                     >Blog List</a
                   >
                 </li> -->
@@ -643,12 +643,12 @@
                   2xl:px-[17px]
                   py-[29px] group
                 " role="none">
-              <a class="
+              <NuxtLink class="
                     font-medium
                     2xl:text-[16px]
                     flex items-center leading-snug text-secondary
                     dark:text-white
-                  " id="nav-6" role="menuitem" tabindex="0" href="/contact-us">Contact Us</a>
+                  " id="nav-6" role="menuitem" tabindex="0" to="/frontend-template/about/contactus">Contact Us</NuxtLink>
             </li>
           </ul>
         </nav>
@@ -674,8 +674,8 @@
             <!-- <i @click="setDarkMode(false)" v-show="darkMode" class="far fa-sunrise text-lg"></i> -->
           </div>
 
-          <a class="inline-block px-2.5 py-1.5 text-dark-50 dark:text-white" aria-label="User Profile" href="/profile"><i
-              class="far fa-user-circle text-lg"></i></a>
+          <NuxtLink class="inline-block px-2.5 py-1.5 text-dark-50 dark:text-white" aria-label="User Profile" to="/profile"><i
+              class="far fa-user-circle text-lg"></i></NuxtLink>
 
 
           <div class="hidden md:block md:max-w-[250px] md:pl-2.5">
@@ -698,7 +698,7 @@
                     focus:outline-0
                     focus:text-body
                     focus:bg-white
-                    focus:border-primary
+                  
                     focus:border-primary
                     bg-gray-200 max-h-[48px] pr-[50px]
                     dark:bg-black
@@ -770,7 +770,7 @@
                   group-hover:after:delay-200
                   group-hover:after:ease-in-expo
                   before:bg-dark
-                  group-hover:before:bg-primary
+                  
                   after:bg-dark
                   group-hover:before:bg-primary
                 "></i><i class="
@@ -815,7 +815,7 @@
                   group-hover:after:delay-200
                   group-hover:after:ease-in-expo
                   before:bg-dark
-                  group-hover:before:bg-primary
+                  
                   after:bg-dark
                   group-hover:before:bg-primary
                 "></i><i class="
@@ -860,7 +860,7 @@
                   group-hover:after:delay-200
                   group-hover:after:ease-in-expo
                   before:bg-dark
-                  group-hover:before:bg-primary
+                  
                   after:bg-dark
                   group-hover:before:bg-primary
                 "></i>
@@ -876,8 +876,10 @@ import { useStyleStore } from '@/stores/style';
 import { storeToRefs } from "pinia";
 const styleStore = useStyleStore()
 const { darkMode } = storeToRefs(styleStore)
-const { setDarkMode } = styleStore 
+const { setDarkMode } = styleStore
+
 </script>
+
 
 <style>
 .header-inner {

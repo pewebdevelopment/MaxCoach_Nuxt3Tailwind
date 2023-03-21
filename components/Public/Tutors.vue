@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 md:m-[30px]">
+  <div class="grid grid-cols-1 md:grid-cols-2 md:m-[30px]" ref="animate">
     <tutor :imageSrc="'/images/testimonial/70/testimonial-1.jpeg'">
       <template v-slot:comment
         >I am happy with their arrangement of lessons and subjects. They reflect
@@ -21,3 +21,12 @@
     </tutor>
   </div>
 </template>
+
+<script>
+  export default {
+  mounted() {
+    const twoScroll = this.$twoScroll();
+    twoScroll.reveal(this.$refs.animate);
+  },
+};
+</script>

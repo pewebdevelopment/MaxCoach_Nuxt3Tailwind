@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full m-0 bg-[#EAE1D6] dark:bg-[#111] py-16 flex justify-center items-center relative">
+  <div class="w-full m-0 bg-[#EAE1D6] dark:bg-[#111] py-16 flex justify-center items-center relative" >
     <div class="w-11/12 flex flex-col justify-center items-center">
-      <div class="w-8/12 md:w-6/12 mb-[60px]">
-        <headers>
-          <template v-slot:headerone
+      <div class="w-8/12 md:w-6/12 mb-[60px]" ref="animate">
+        <headers >
+          <template v-slot:headerone 
             >Maximize your potentials and possibilities</template
           >
           <template v-slot:headertwo>
@@ -34,6 +34,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    const twoScroll = this.$twoScroll();
+    twoScroll.reveal(this.$refs.animate);
+  },
+};
+</script>
 
 <style>
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-end lg:py-24">
+  <div class="flex justify-end lg:py-24" ref="animate">
     <div class="relative dark:bg-black w-full lg:w-10/12 flex flex-col lg:flex-row">
       <div class="hidden lg:block lg:absolute lg:left-[-134px] lg:top-[60px]">
         <img src="/images/others/teracher-quote-1.jpeg" alt="image" />
@@ -88,3 +88,12 @@ span {
   padding: 40px;
 }
 </style>
+
+<script>
+export default {
+  mounted() {
+    const scrollReveal = this.$scrollReveal();
+    scrollReveal.reveal(this.$refs.animate);
+  },
+};
+</script>
