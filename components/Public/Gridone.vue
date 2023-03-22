@@ -8,12 +8,13 @@
       2B a Better You.
     </h1>
     <p class="text-[16px] lg:text-[18px]">
-      The right mentoring relationship can be a powerful tool for professional
+      The right mentoring relationship can be a powerful tool for <br> professional
       growth. Bark up the right tree.
     </p>
 
     <span>
-      <button>Download free guide</button>
+      
+      <button> <i class="fa-solid fa-download"></i> &nbsp; Download free guide</button>
     </span>
   </div>
 </template>

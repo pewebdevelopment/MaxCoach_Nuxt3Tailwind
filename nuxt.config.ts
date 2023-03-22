@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   ssr: false,
   srcDir: "./",
-  css: ["@/assets/css/main.css","@/assets/css/font-awesome-pro.min.css",],
+  css: ["@/assets/css/main.css","@/assets/css/font-awesome-pro.min.css", '@fortawesome/fontawesome-free/css/all.css'],
 
   experimental: { payloadExtraction: false },
 

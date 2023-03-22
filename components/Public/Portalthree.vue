@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="pt-[100px] bg-[#111]">
-      <div class="text-center text-white">
+      <div class="text-center text-white" ref="animate">
         <h6 class="mb-[30px] text-[24px] text-[#20AD96] font-md leading-[1.34]">
           Greate words about Maxcoach
         </h6>
@@ -20,3 +20,12 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  mounted() {
+    const twoScroll = this.$twoScroll();
+    twoScroll.reveal(this.$refs.animate);
+  },
+};
+</script>

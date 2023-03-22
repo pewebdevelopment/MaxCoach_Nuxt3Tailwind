@@ -59,10 +59,14 @@
                   text-[14px] dark:text-[#fff] text-body
                   font-[700]
                   cursor-pointer
+                  dark:hover:text-[#20ad96]
+                  hover:text-[#20ad96]
+
                 "
               >
                 Get Free Guide
-                <icon name="uil:arrow-right" />
+                
+                <i class="fas fa-arrow-right text-body dark:text-[#fff] dark:hover:text-[#20ad96] hover:text-[#20ad96]"></i>
               </button>
             </div>
           </div>

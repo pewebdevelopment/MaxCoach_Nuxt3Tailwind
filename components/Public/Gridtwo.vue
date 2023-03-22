@@ -1,10 +1,9 @@
 <template>
+  
   <div class="w-12/12 cursor-pointer lg:max-w-[370px] p-3 rounded-lg">
     <span>
-      <img
-        src="/images/courses/370/course-2.jpg"
-        class="w-full lg:w-full h-[229px]"
-      />
+      
+      <slot name="img"></slot>
     </span>
 
     <div class="relative p-8 pb-10 bg-[#EAE1D6] dark:bg-black rounded-b-md">

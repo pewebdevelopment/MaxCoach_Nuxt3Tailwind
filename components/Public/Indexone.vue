@@ -14,11 +14,12 @@
         xl:p-20
       "
     >
-      <div class="w-12/12 grid grid-cols-1 md:grid-cols-2">
+      <div class="w-12/12 grid grid-cols-1 md:grid-cols-2 background">
         <div>
           <gridone />
         </div>
         <div class="w-12/12 flex items-center justify-center lg:justify-end">
+          <img src="/images/intro/intro1/intro-popular-course.png" alt="image" class="z-[9] self-end flex-[0_0_auto] ml-auto mr-5 mb-[100px]">
           <gridtwo>
             <template v-slot:tag>Free</template>
             <template v-slot:date>SEP 23, 2023</template>
@@ -52,7 +53,7 @@
 .background {
   background-image: url("@/images/intro/intro1/bg-1.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 

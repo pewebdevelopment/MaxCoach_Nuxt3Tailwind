@@ -28,9 +28,9 @@
       <slot name="cardP"></slot>
     </p>
 
-    <span class="flex items-center p-[5px] text-secondary dark:text-[#ddd] mt-[25px]">
-      <h4 class="font-[700] text-[14px] mr-2">Start Here</h4>
-      <icon name="uil:arrow-right" />
+    <span class="flex items-center p-[5px] text-secondary dark:text-[#ddd] mt-[25px] group">
+      <h4 class="font-[700] text-[14px] mr-2 group-hover:text-[#20ad96] group-hover:cursor-pointer ">Start Here</h4>
+      <i class="fa-solid fa-arrow-right group-hover:text-[#20ad96] group-hover:cursor-pointer"></i>
     </span>
   </div>
 </template>

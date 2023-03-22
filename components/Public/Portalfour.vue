@@ -16,23 +16,23 @@
 
         <div class="text-[#ddd] text-[15px] font-bold text-left">
           <button class="hover flex items-center mt-10 mb-4 text-left">
-            <icon class="icon mr-2" name="uil:arrow-right" /> Become a Better
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> &nbsp; Become a Better
             Blogger: Content Planning
           </button>
           <button class="hover flex items-center mb-4 text-left">
-            <icon class="icon mr-2" name="uil:arrow-right" /> Promoting Your
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> &nbsp; Promoting Your
             Online Business on Pinterest
           </button>
           <button class="hover flex items-center mb-4 text-left">
-            <icon class="icon mr-2" name="uil:arrow-right" /> Gamification and
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> &nbsp; Gamification and
             Game-Based Learning
           </button>
           <button class="hover flex items-center mb-4 text-left">
-            <icon class="icon mr-2" name="uil:arrow-right" /> Designing an
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> &nbsp; Designing an
             Online Course from Expert’s Perspective
           </button>
           <button class="hover flex items-center mb-4 text-left">
-            <icon class="icon mr-2" name="uil:arrow-right" /> Why Online Courses
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> &nbsp; Why Online Courses
             Are the Future of Education
           </button>
         </div>
@@ -42,14 +42,14 @@
         <div
           v-for="course in courses"
           :key="course.id"
-          class="w-full rounded-md md:min-w-[300px] lg:max-w-[370px] text-white hover:scale-105 ease-in-out duration-150 hover:drop-shadow-md hover:shadow-gray-900 hover:shadow-lg"
+          class="w-full rounded-md md:min-w-[300px] lg:max-w-[370px] text-white transition-all ease-linear duration-[1s] group overflow-hidden" 
         >
           <div class="w-full">
             <div class="thumbnail">
               <a href="blog/12-essential-bodyweight-exercises" class="image"
                 ><img
-                  class="rounded-t-md w-full"
-                  src="/images/blog/370/blog-1.jpg"
+                  class="rounded-t-md w-full group-hover:scale-125 group-hover:transition-all duration-[1s]"
+                  :src="course.image"
               /></a>
             </div>
 
@@ -60,7 +60,7 @@
                 {{ course.bio }}</span
               >
               <h3
-                class="text-[20px] text-white hover: font-extrabold leading-[1.5] mb-1"
+                class="text-[20px] text-white hover: font-extrabold leading-[1.5] mb-1 group-hover:text-[#20ad96]"
               >
                 {{ course.title }}
               </h3>
@@ -68,13 +68,15 @@
               <div
                 class="flex justify-start items-center mt-5 text-[14px] font-light"
               >
-                <span class="flex justify-centere items-center">
-                  <icon class="w-4 h-4 mr-2" name="uil:calender" />
+                <span class="flex justify-centere items-center text-white">
+                
+                  <i class="fa-regular fa-calendar-days w-4 h-4 mr-2"></i>
                   {{ course.date }}
                 </span>
 
-                <span class="ml-4 flex justify-centere items-center">
-                  <icon class="w-4 h-4 mr-2" name="uil:eye" />
+                <span class="ml-4 flex justify-centere items-center text-white">
+                  
+                  <i class="fa-regular fa-eye w-4 h-4 mr-2"></i>
                   {{ course.views }}
                 </span>
               </div>
@@ -95,7 +97,7 @@ return {
 courses: [
     {
         id: 1,
-        image: "/images/courses/370/course-1.jpg",
+        image: "/images/blog/340/blog-01.jpg",
         bio: 'Artist',
         date: 'Apr 06, 2020',
         title: '10 Essential Bodyweight Exercises',
@@ -104,7 +106,7 @@ courses: [
 
         {
         id: 2,
-        image: "/images/courses/370/course-1.jpg",
+        image: "/images/blog/340/blog-02.jpg",
         bio: 'Artist',
         date: 'Apr 06, 2020',
         title: 'Pocket-Sized Notebooks Hold Miniature Paintings',
@@ -123,5 +125,6 @@ courses: [
 }
 .hover:hover .icon {
   color: #20ad96;
+  
 }
 </style>

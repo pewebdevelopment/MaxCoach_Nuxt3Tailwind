@@ -1,10 +1,7 @@
 <template>
   <div class="emd:w-[370px] p-3 rounded-lg bg-transparent">
     <span>
-      <img
-        src="/images/courses/370/course-2.jpg"
-        class="w-full lg:w-full h-[229px]"
-      />
+      <slot name="img"></slot>
     </span>
 
     <div class="relative p-8 pb-10 dark:bg-black rounded-b-md">

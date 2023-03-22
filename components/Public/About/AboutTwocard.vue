@@ -1,7 +1,7 @@
 <template>
   <div
     id="trans"
-    class="px-[20px] py-[30px] w-12/12 md:max-w-[500px] m-[4px] blue rounded-md flex flex-col justify-center items-center text-center"
+    class="px-[20px] py-[30px] w-12/12 md:max-w-[500px] m-[4px] blue rounded-md flex flex-col justify-start items-start text-left hover:shadow-[3px_3px_20px_0_#000]"
   >
     <span class="mb-[24px]">
       <slot name="cardIcon"></slot>
@@ -15,9 +15,9 @@
       <slot name="cardP"></slot>
     </p>
 
-    <span class="flex items-center p-[5px] text-[#ddd] mt-[25px]">
-      <h4 class="font-[700] text-[14px] mr-2">Start Here</h4>
-      <icon name="uil:arrow-right" />
+    <span class="flex items-center p-[5px] text-[#ddd] mt-[25px] group">
+      <h4 class="font-[700] text-[14px] mr-2 group-hover:text-[#20ad96] dark:group-hover:text-[#20ad96]">Start Here</h4>
+      <i class="fas fa-arrow-right group-hover:text-[#20ad96] dark:group-hover:text-[#20ad96]"></i>
     </span>
   </div>
 </template>

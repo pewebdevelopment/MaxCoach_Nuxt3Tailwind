@@ -11,7 +11,7 @@
         You can be your own guiding star with our help!
       </div>
       <button
-        class="text-[14px] text-white font-bold px-20 py-4 bg-[#20ad96] rounded-md"
+        class="text-[14px] text-white font-bold px-20 py-4 bg-[#20ad96] rounded-md hover:bg-[#3f3a64]"
       >
         Get started now
       </button>

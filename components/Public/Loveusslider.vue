@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 flex flex-col gap-4 justify-center items-center">
+  <div class="mt-20 flex  gap-4 justify-center items-center" ref="animate">
     <div
       v-for="message in messages"
       :key="message.name"
@@ -15,7 +15,7 @@
       <div class="flex items-center pt-[40px]">
         <img
           class="rounded-[50%] mr-[20px]"
-          src="/images/testimonial/70/testimonial-1.jpeg"
+          :src="message.img"
           alt="Florence Themes"
         />
         <div class="flex flex-col">
@@ -37,6 +37,7 @@ export default {
         return {
             messages: [
                 {
+                    img: '/images/testimonial/70/testimonial-1.jpeg',
                     title: ' High level of efficiency and scientific teaching methods',
                     comment: 'I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation into effective methods to adopt for learners.',
                     image: '',
@@ -44,6 +45,7 @@ export default {
                     job: '/Multimedia Admin'
                 },
                     {
+                      img: '/images/testimonial/70/testimonial-2.jpeg',
                     title: ' Professional team of specialists and passionate mentors at reach',
                     comment: 'I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.',
                     image: '',
@@ -51,6 +53,7 @@ export default {
                     job: '/IT Specialist'
                 },
                     {
+                      img: '/images/testimonial/70/testimonial-3.jpeg',
                     title: ' Highly recommend thier courses and teaching system',
                     comment: 'I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation into effective methods to adopt for learners.',
                     image: '',
@@ -59,11 +62,12 @@ export default {
                 }
             ]
         }
-    }
+    },
+    mounted() {
+    const twoScroll = this.$twoScroll();
+    twoScroll.reveal(this.$refs.animate);
+  },
 }
 </script>
 
 
-<h4 class="title"></h4>
-
-__
