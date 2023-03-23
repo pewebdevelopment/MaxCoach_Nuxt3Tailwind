@@ -1,10 +1,10 @@
 <template>
-  <div class="blue py-[100px] px-5 md:px-[100px]">
+  <div class="blue py-[100px] px-5 md:px-[100px] bg-white dark:bg-[#161821]">
     <div class="flex flex-col md:flex-row items-center justify-between">
       <div class="flex flex-col">
         <div class="mb-[40px]">
-          <span class="sub-title">Get excited already?</span>
-          <h2 class="title">Reach me!</h2>
+          <span class="inline-block text-lg leading-none font-medium dark:text-[#ddd] text-[#333] mb-2.5">Get excited already?</span>
+          <h2 class="text-[34px] leading-none font-bold dark:text-[white] text-[#333] mb-0">Reach me!</h2>
         </div>
 
         <div>

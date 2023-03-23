@@ -15,38 +15,39 @@
       <div
         v-for="speaker in speakers"
         :key="speaker.name"
-        class="max-w-[350px]"
+        
       >
-        <div>
+        <div class="max-w-350px">
           <div @mouseover="show = !show" class="relative flex justify-center">
             <img
               class="img-fluid"
-              src="/images/team/350/team-member-01.jpg"
+              :src="speaker.image"
               alt="Merrie Lewis Thumbnail"
             />
 
             <Transition>
               <div
                 v-if="show"
-                class="w-10/12 mx-4 bg-white py-2 absolute bottom-6 flex justify-center"
+                class="w-10/12 mx-4 bg-transparent gap-4 py-2 absolute bottom-6 flex justify-center"
               >
-                <icon class="socials" name="uil:facebook-f" />
-                <icon class="socials" name="uil:twitter" />
-                <icon class="socials" name="uil:instagram" />
-                <icon class="socials" name="uil:youtube" />
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
               </div>
             </Transition>
           </div>
 
           <div class="text-center pt-10">
-            <div class="font-bold text-[24px] text-white leading-[1.3]">
+            <div class="font-bold text-[24px] dark:text-white text-[#333333] leading-[1.3]">
               {{ speaker.name }}
             </div>
-            <div class="text-[15px] mt-[8px] text-[#ddd]">
+            <div class="text-[15px] mt-[8px] dark:text-[#ddd] text-[#696969]">
               {{ speaker.job }}
             </div>
           </div>
         </div>
+        
       </div>
     </div>
 
@@ -65,32 +66,46 @@ export default {
 
             speakers:[
                 {
+                    image: '/images/team/350/team-member-01.jpg',
                     name: 'Merrie Lewis',
-                    job: 'General Director'
+                    job: 'General Director',
+                    350: true,
                 },
                  {
+                  image: '/images/team/350/team-member-02.jpg',
                     name: 'Mariana Buenos',
-                    job: 'CEO & Chief Manager'
+                    job: 'CEO & Chief Manager',
+                    350: true,
                 },
                  {
+                  image: '/images/team/350/team-member-03.jpg',
                     name: 'Parks Missie',
-                    job: 'Course Researcher'
+                    job: 'Course Researcher',
+                    350: true,
                 },
                  {
+                  image: '/images/team/270/team-member-04.jpg',
                     name: 'Merrie Lewis',
-                    job: 'General Director'
+                    job: 'General Director',
+                    350: false,
                 },
                  {
+                  image: '/images/team/270/team-member-05.jpg',
                     name: 'Merrie Lewis',
-                    job: 'General Director'
+                    job: 'General Director',
+                    350: false,
                 },
                  {
+                  image: '/images/team/270/team-member-06.jpg',
                     name: 'Merrie Lewis',
-                    job: 'General Director'
+                    job: 'General Director',
+                    350: false,
                 },
                  {
+                  image: '/images/team/270/team-member-07.jpg',
                     name: 'Merrie Lewis',
-                    job: 'General Director'
+                    job: 'General Director',
+                    350: false,
                 },
             ]
         }

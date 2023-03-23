@@ -1,30 +1,30 @@
 <template>
   <div class="flex items-start mb-[50px]">
-    <i class="color fa fa-location" name="uil:map-marker" />
+    <i class="text-[32px] text-[#20ad96] mr-5 mt-0 fa fa-location" name="uil:map-marker" />
     <div>
       <h4 class="title dark:text-white">Address</h4>
-      <span class="info-text dark:text-[#fff]"> Your address goes here</span>
+      <span class="info-text dark:text-[#fff] text-[#696969]"> Your address goes here</span>
     </div>
   </div>
 
   <div class="flex items-start mb-[50px]">
-    <i class="color fa fa-phone"/>
+    <i class="text-[32px] text-[#20ad96] mr-5 mt-0 fa fa-phone"/>
     <div>
       <h4 class="title dark:text-white">Contact</h4>
-      <span class="info-text dark:text-[#fff]">Mobile:<strong>0123456789</strong></span
+      <span class="info-text dark:text-[#fff] text-[#696969]">Mobile:<strong class="text-[#333] dark:text-white">0123456789</strong></span
       ><br />
-      <span class="info-text dark:text-[#fff]">Hotline:<strong>0123456789</strong></span
+      <span class="info-text dark:text-[#fff] text-[#696969]">Hotline:<strong class="text-[#333] dark:text-white">0123456789</strong></span
       ><br />
-      <span class="info-text dark:text-[#fff]">Mail:<strong>demo@example.com</strong></span>
+      <span class="info-text dark:text-[#fff] text-[#696969]">Mail:<strong class="text-[#333] dark:text-white">demo@example.com</strong></span>
     </div>
   </div>
 
   <div class="flex items-start mb-[50px]">
-    <i class="color fa fa-clock" />
+    <i class="text-[32px] text-[#20ad96] mr-5 mt-0 fa fa-clock" />
     <div>
-      <h4 class="title dark:text-white">Hour of operation</h4>
-      <span class="info-text dark:text-[#fff]">Monday - Friday : 09:00 - 20:00</span><br />
-      <span class="info-text dark:text-[#fff]">Sunday & Saturday : 10:30 - 32:00</span>
+      <h4 class="title dark:text-white text-[#696969]">Hour of operation</h4>
+      <span class="info-text dark:text-[#fff] text-[#696969]">Monday - Friday : 09:00 - 20:00</span><br />
+      <span class="info-text dark:text-[#fff] text-[#696969]">Sunday & Saturday : 10:30 - 32:00</span>
     </div>
   </div>
 </template>

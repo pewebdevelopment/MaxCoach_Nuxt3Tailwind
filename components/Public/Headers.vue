@@ -12,7 +12,7 @@
       <slot name="headerone"></slot>
     </h4>
     <h2 class="text-[26px] lg:text-[34px] text-secondary dark:text-white font-[700] leading-[1.3]">
-      <slot name="headertwo"></slot>
+      <slot name="headertwo" class="text-[#3f3a6a] dark:text-white"></slot>
     </h2>
   </div>
 </template>

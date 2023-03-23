@@ -3,12 +3,12 @@
     <div
       v-for="message in messages"
       :key="message.name"
-      class="rounded-md blue px-[50px] pt-[41px] pb-[36px] w-full mr-[10px] mb-[30px]"
+      class="rounded-md blue px-[50px] pt-[41px] pb-[36px] w-full mr-[10px] mb-[30px] bg-white dark:bg-[#161821]"
     >
-      <h4 class="mb-[15px] text-[20px] text-white leading-[1.6] font-bold">
+      <h4 class="mb-[15px] text-[20px] dark:text-white text-[#333] leading-[1.6] font-bold">
         {{ message.title }}
       </h4>
-      <p class="mb-[15px] text-[18px] text-[#dddddd] leading-[1.67] font-[500]">
+      <p class="mb-[15px] text-[18px] dark:text-[#dddddd] text-[#696969] leading-[1.67] font-[500]">
         {{ message.comment }}
       </p>
 
@@ -19,10 +19,10 @@
           alt="Florence Themes"
         />
         <div class="flex flex-col">
-          <span class="uppercase text-[15px] tracking-[1px] text-white">{{
+          <span class="uppercase text-[15px] tracking-[1px] dark:text-white text-[#333333] font-bold">{{
             message.name
           }}</span>
-          <span class="text-[14px] tracking-[1px] text-[#8C89A2] mt-[10px]">{{
+          <span class="text-[14px] tracking-[1px] dark:text-[#8C89A2] text-[#7e7e7e] mt-[10px]">{{
             message.job
           }}</span>
         </div>

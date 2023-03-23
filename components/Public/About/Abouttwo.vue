@@ -17,9 +17,9 @@
       </headers>
 
       <div class="w-full overflow-auto flex flex-row">
-        <aboutcomments />
+        <AboutComments />
       </div>
-
+      <AboutBrandSession/>
       <!-- <div></div> -->
     </div>
 
@@ -32,3 +32,7 @@
     </div>
   </div>
 </template>
+
+<script>
+  import AboutBrandSession from './AboutBrandSession'
+</script>
