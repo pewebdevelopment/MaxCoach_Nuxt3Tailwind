@@ -1,8 +1,6 @@
 <template>
-  <div
-    id="trans"
-    class="px-[20px] py-[30px] w-12/12 md:max-w-[500px] m-[4px] blue rounded-md flex flex-col justify-start items-start text-left hover:shadow-[3px_3px_20px_0_#000]"
-  >
+  <div id="trans"
+    class="px-[20px] py-[30px] w-12/12 md:max-w-[500px] m-[4px] blue rounded-md flex flex-col justify-start items-start text-left hover:shadow-[3px_3px_20px_0_#000]">
     <span class="mb-[24px]">
       <slot name="cardIcon"></slot>
     </span>

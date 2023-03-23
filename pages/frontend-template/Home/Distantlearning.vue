@@ -8,12 +8,12 @@
       <button
         class="h-[52px] px-5 text-[#333333] text-[14px] leading-[50px] bg-[#F8F9FA] font-bold flex items-center justify-center rounded-md hover:text-white hover:green"
       >
-        Download free guidebook
-        <icon name="uil:arrow-right" />
+        Download free guidebook &nbsp; &nbsp; &nbsp; 
+        <i class="fa-solid fa-arrow-right"></i> &nbsp; 
       </button>
     </div>
 
-    <div class="bg-[#111] pt-[100px]">
+    <div class="bg-[#f5f5f5] dark:bg-[#111] pt-[100px]">
       <mentoringone />
 
       <div class="p-[100px]">
@@ -28,6 +28,8 @@
           height="100"
           class="w-full"
           fill="#161821"
+          
+          
         >
           <path
             class="elementor-shape-fill"
@@ -37,11 +39,11 @@
       </div>
     </div>
 
-    <div class="blue">
+    <div class="bg-white dark:bg-[#161821]">
       <mentoringtwo />
     </div>
 
-    <div class="bg-[#111] py-[50px] px-[100px]">
+    <div class="dark:bg-[#111] bg-[#f5f5f5] py-[50px] px-[100px]">
       <trendingblogs />
     </div>
 
@@ -51,11 +53,14 @@
   </div>
 </template>
 
-<script setup>
+<script>
+
 definePageMeta({
   layout: "frontend",
 });
-</script>s
+
+
+</script>
 
 <style scoped>
 .sub-title {
@@ -77,6 +82,13 @@ definePageMeta({
 
 .back {
   background-image: url("/images/intro/intro3/bg-1.jpg");
+}
+.bg-cover{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  
 }
 </style>
 
