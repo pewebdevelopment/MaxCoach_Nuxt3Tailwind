@@ -17,7 +17,7 @@
       <div class="w-12/12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <indextwocard>
           <template v-slot:cardIcon>
-            <img src="/svgs/flag.svg" />
+            <i class="fa-regular fa-flag dark:text-[#fff] text-[#000] text-[4rem] "></i>
           </template>
           <template v-slot:cardHead>Life Mentoring</template>
           <template v-slot:cardP
@@ -28,7 +28,7 @@
 
         <indextwocard>
           <template v-slot:cardIcon>
-            <img src="/svgs/selfdevelopment.svg" />
+            <i class=" fa-solid fa-gear dark:text-[#fff] text-[#000] text-[4rem] "></i>
           </template>
           <template v-slot:cardHead>Self Development</template>
           <template v-slot:cardP
@@ -39,7 +39,7 @@
 
         <indextwocard>
           <template v-slot:cardIcon>
-            <img src="/svgs/consultancy.svg" />
+            <i class="fa-solid fa-life-ring dark:text-[#fff] text-[#000] text-[4rem]"></i>
           </template>
           <template v-slot:cardHead>Ask Consultancy</template>
           <template v-slot:cardP
@@ -50,7 +50,7 @@
 
         <indextwocard>
           <template v-slot:cardIcon>
-            <img src="/svgs/learning.svg" />
+            <i class="fa-solid fa-desktop dark:text-[#fff] text-[#000] text-[4rem]"></i>
           </template>
           <template v-slot:cardHead>Remote Learning</template>
           <template v-slot:cardP

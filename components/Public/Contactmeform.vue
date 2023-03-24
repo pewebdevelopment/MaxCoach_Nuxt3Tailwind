@@ -2,7 +2,7 @@
   <div class="pt-[100px]">
     <div class="flex flex-wrap">
       <div
-        class="text-center md:text-left text-white font-bold text-[34px] px-3"
+        class="text-center md:text-left dark:text-white text-[#333] font-bold text-[34px] px-3"
       >
         Or just drop me a line
       </div>
@@ -13,30 +13,33 @@
       >
         <div class="flex justify-between items-center w-12/12 mb-2">
           <input
-            class="w-6/12 mr-2"
+            class="w-6/12 mr-2 dark:bg-[#222] bg-[#f5f5f5] px-5 py-2.5 rounded-[3px] border-[solid]  outline-none dark:border-none placeholder:text-[#696969] dark:placeholder:text-[#b7b2b2]"
             type="text"
-            placeholder="Your Name"
+            placeholder="Your Name*"
             id=""
             v-model="registration.name"
+            required
           />
           <input
-            class="w-6/12 ml-2"
+            class="w-6/12 ml-2 dark:bg-[#222] bg-[#f5f5f5] px-5 py-2.5 rounded-[3px] border-[solid]  outline-none dark:border-none placeholder:text-[#696969] dark:placeholder:text-[#b7b2b2]"
             type="email"
-            placeholder="Email"
+            placeholder="Email*"
             id=""
             v-model="registration.email"
+            required
           />
         </div>
 
         <input
-          class="w-full my-2"
+          class="w-full my-2 dark:bg-[#222] bg-[#f5f5f5] px-5 py-2.5 rounded-[3px] border-[solid] outline-none dark:border-none placeholder:text-[#696969] dark:placeholder:text-[#b7b2b2]"
           type="text"
-          placeholder="Subject"
+          placeholder="Subject*"
           id=""
           v-model="registration.subject"
+          required
         />
         <textarea
-          class="w-full text-white my-2 min-h-[220px]"
+          class="w-full text-white dark:border-none placeholder:text-[#696969] dark:placeholder:text-[#b7b2b2] my-2 min-h-[220px] dark:bg-[#222] bg-[#f5f5f5] px-5 py-2.5 rounded-[3px] border-[solid]  outline-none"
           placeholder="Your Mesage"
           v-model="registration.message"
         ></textarea>
@@ -83,17 +86,7 @@ methods: {
   background-image: url(/images/bg/become-a-teache-bg.jpg);
 }
 
-input,
-textarea {
-  padding: 10px 20px;
-  background-color: #222;
-  border: solid 0.5px #333;
-  border-radius: 3px;
-  outline: none;
-}
 
-input::placeholder,
-textarea::placeholder {
-  color: #696969;
-}
+
+
 </style>

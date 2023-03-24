@@ -8,7 +8,7 @@
       w-12/12
       md:max-w-[300px]
       m-[4px]
-      dark:bg-[#161821]
+      
       rounded-md
       flex flex-col
       justify-center
@@ -16,7 +16,7 @@
       text-center
     "
   >
-    <span class="mb-[24px] w-full bg-secondary p-2 flex justify-center">
+    <span class="mb-[24px] w-full  p-2 flex justify-center">
       <slot name="cardIcon"></slot>
     </span>
 

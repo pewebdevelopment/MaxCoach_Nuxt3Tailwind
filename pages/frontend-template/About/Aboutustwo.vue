@@ -1,7 +1,7 @@
 <template>
   <div class="w-12/12">
     <div
-      class="dark:bg-[#111] bg:white bg-cover bg-center text-[34px] font-[bold] leading-[48px] text-white mb-0 text-center pt-[200px] w-full">
+      class="dark:bg-[#111] bg-[#f8f8f8] bg:white bg-cover bg-center text-[34px] font-[bold] leading-[48px] text-white mb-0 text-center pt-[200px] w-full">
       <h3 class="dark:text-[white] text-[#333] text-[34px] font-bold uppercase tracking-[2px] leading-[1.34] mt-3.5">
         I am happy with their arrangement of lessons <br />
         and subjects. They reflect a scientific<br />
@@ -28,13 +28,13 @@
       </div>
 
       <div class="mb-[-140px] relative flex justify-center items-center">
-        <img class="image" src="/images/about/about-me/video-about-us-2.jpg" alt="image" />
+        <img class="w-[50%] transition-all duration-[1.5s] ease-out max-w-full align-middle border-none" src="/images/about/about-me/video-about-us-2.jpg" alt="image" />
         <img class="youtube" src="/images/icons/icon-youtube-play.png" alt="icon" />
       </div>
 
       <div class="">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" height="100" width="100%"
-          fill="#161821">
+           class=" fill-white dark:fill-[#161821]">
           <path class="elementor-shape-fill" d="M 0 0 L0 100 L100 100 L100 0 Q 50 200 0 0"></path>
         </svg>
       </div>

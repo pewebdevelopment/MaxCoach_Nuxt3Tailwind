@@ -380,6 +380,14 @@
                             py-2
                           " role="menuitem" to="/frontend-template/about/contactus">Contact us</NuxtLink>
                 </li>
+                <li role="none" class="relative">
+                  <NuxtLink class="
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/about/loginregister">Login Register</NuxtLink>
+                </li>
               </ul>
             </li>
             <li class="

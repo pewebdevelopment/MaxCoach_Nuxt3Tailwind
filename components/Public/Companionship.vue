@@ -14,7 +14,7 @@
       <slot name="content"></slot>
     </p>
     <button
-      class="text-[14px] text-white font-bold px-12 py-4 mt-[30px] bg-[#20ad96] rounded-md"
+      class="text-[14px] text-white font-bold px-12 py-4 mt-[30px] bg-[#20ad96] hover:bg-[#3F3A64] rounded-md"
     >
       Get trial courses
     </button>

@@ -2,7 +2,7 @@
   <div class="padding-responsive h-auto bg-[#111] relative">
     <div class="relative lg:bottom-[-100px]">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <abouttwocard>
+        <AboutTwocard>
           <template v-slot:cardIcon>
             <img src="/images/learner/learner-01.png" />
           </template>
@@ -10,9 +10,9 @@
           <template v-slot:cardP>Learners are given the right to arrange and customize their study
             schedule and timetable based on preferences.
           </template>
-        </abouttwocard>
+        </AboutTwocard>
 
-        <abouttwocard>
+        <AboutTwocard>
           <template v-slot:cardIcon>
             <img src="/images/learner/learner-02.png" />
           </template>
@@ -20,9 +20,9 @@
           <template v-slot:cardP>You can store online lessons via online cloud or download to your
             device and revise lessons on the way.
           </template>
-        </abouttwocard>
+        </AboutTwocard>
 
-        <abouttwocard>
+        <AboutTwocard>
           <template v-slot:cardIcon>
             <img src="/images/learner/learner-03.png" />
           </template>
@@ -30,7 +30,7 @@
           <template v-slot:cardP>We provide study materials with various formats: video, audio,
             slides, doc, prints, books and applications.
           </template>
-        </abouttwocard>
+        </AboutTwocard>
       </div>
 
       <div class="text-[18px] font-medium leading-[1.67em] text-[#8C89A2] text-center mt-[50px]">

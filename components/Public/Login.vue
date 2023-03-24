@@ -39,7 +39,7 @@
 
         <div class="w-full flex justify-center">
           <button
-            class="w-full text-[14px] text-white font-bold px-12 py-4 bg-[#20ad96] rounded-md mt-12"
+            class="w-full text-[14px] text-white font-bold px-12 py-4 bg-[#20ad96] hover:bg-[#3F3A64] rounded-md mt-12"
           >
             Log in
           </button>
