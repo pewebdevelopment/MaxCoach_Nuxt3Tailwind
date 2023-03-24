@@ -1,7 +1,7 @@
 <template>
   <div class="font-body dark:bg-[#161821] w-12/12 px-24">
     <div class="container">
-      <div class="py-[50px]">
+      <div class="pb-[50px] pt-[100px]">
         <courseheader>
           <template v-slot:title>Blog Grid</template>
         </courseheader>
@@ -13,10 +13,10 @@
         <!-- pagination -->
         <div class="flex justify-center">
           <ul class="flex flex-row dark:text-white">
-            <li class="page-item"><a href="#">Prev</a></li>
-            <li class="page-item active"><a href="#">1</a></li>
-            <li class="page-item"><a href="#">2</a></li>
-            <li class="page-item"><a href="#">Next</a></li>
+            <li class=" font-bold p-[10px]"><a href="#">Prev</a></li>
+            <li class="font-bold p-[10px] active"><a href="#">1</a></li>
+            <li class="font-bold p-[10px]"><a href="#">2</a></li>
+            <li class="font-bold p-[10px]"><a href="#">Next</a></li>
           </ul>
         </div>
       </div>

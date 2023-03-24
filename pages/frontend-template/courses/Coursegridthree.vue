@@ -1,64 +1,50 @@
 <template>
-  <div class="bg-[#161821] w-12/12 p-8 md:px-24">
+  <div class="dark:bg-[#161821] bg-white w-12/12 p-8 md:px-24">
     <div class="py-[100px]">
       <courseheader>
-        <template v-slot:title>Courses Grid 03</template>
+        <template v-slot:title><span class="dark:text-white text-[#333] "> Courses Grid 03 </span></template>
       </courseheader>
     </div>
     <div>
-      <div
-        class="
-          flex
-          justify-center
-          items-center
-          md:justify-between
-          flex-col
-          md:flex-row
-        "
-      >
-        <p
-          class="
-            text-[15px] text-[#ddd]
-            font-normal
-            leading-[1.74]
-            mb-4
-            md:mb-0
-          "
-        >
-          We found 12 courses available for you
-        </p>
-
-        <div class="select relative">
-          <span
-            class="
-              absolute
-              top-0
-              bottom-0
-              right-0
-              w-[54px]
-              bg-white
+      <div class="
               flex
               justify-center
               items-center
-            "
-          >
-            <icon class="w-10 h-10 text-gray-400" name="uil:angle-down" />
-          </span>
-          <select id="cars" name="cars" aria-placeholder="Default">
-            <div class="options">
-              <option>Default</option>
-              <option value="popularity">Popularity</option>
-              <option value="latest">Latest</option>
-              <option value="low">Price:Low to High</option>
-              <option value="high">Price:High to Low</option>
-            </div>
-          </select>
-        </div>
+              md:justify-between
+              flex-col
+              md:flex-row
+            ">
+        <p class="
+                text-[15px] dark:text-[#ddd] text-[#696969]
+                font-normal
+                leading-[1.74]
+                mb-4
+                md:mb-0
+              ">
+          We found 12 courses available for you
+        </p>
+
+        <div class="w-[300px] h-[54px] mb-2.5 px-2 py-0; relative">
+            <span class="absolute top-0 bottom-0 right-0 w-[54px] flex justify-center items-center">
+              
+              
+            </span>
+            <select id="cars" class="bg-[#fff] rounded text-[#696969] w-full h-full px-3 py-0 " name="cars"
+              aria-placeholder="Default">
+              <div class="options text-[#696969]">
+                <option>Default</option>
+                <option value="popularity">Popularity</option>
+                <option value="latest">Latest</option>
+                <option value="low">Price:Low to High</option>
+                <option value="high">Price:High to Low</option>
+              </div>
+            </select>
+          </div>
       </div>
     </div>
     <div class="pb-[100px]">
       <coursecardthree />
-      <loadmorebtn />
+      
     </div>
   </div>
 </template>

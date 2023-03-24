@@ -1,150 +1,151 @@
 <template>
   <header class="header relative " style="position: fixed; top: 0; left: 0; width: 100%; z-index: 999;">
     <div class="
-          header-inner flex items-center 
-          py-[19px]
-          xl:py-0
-          z-50
-          transition-all
-          left-0
-          top-0
-          w-full
-          h-auto
-          absolute
-          bg-white
-          dark:bg-[#161821]
-        ">
+              header-inner flex items-center 
+              py-[19px]
+              xl:py-0
+              z-50
+              transition-all
+              left-0
+              top-0
+              w-full
+              h-auto
+              absolute
+              bg-white
+              dark:bg-[#161821]
+            ">
       <div class="
-            container grid grid-flow-col 
-            xl:grid-cols-[22%_minmax(56%,_1fr)_22%]
-            items-center px-3.8
-            3xl:px-37
-          ">
-        <NuxtLink class="inline-block max-w-[120px] sm:max-w-[158px]" to="/frontend-template"><img :src="darkMode?'/images/logo/light-logo.png':'/images/logo/dark-logo.png'" alt="Logo"
-            width="158" height="26" /></NuxtLink>
+                container grid grid-flow-col 
+                xl:grid-cols-[22%_minmax(56%,_1fr)_22%]
+                items-center px-3.8
+                3xl:px-37
+              ">
+        <NuxtLink class="inline-block max-w-[120px] sm:max-w-[158px]" to="/frontend-template"><img
+            :src="darkMode ? '/images/logo/light-logo.png' : '/images/logo/dark-logo.png'" alt="Logo" width="158"
+            height="26" /></NuxtLink>
         <nav aria-label="Main Menu" class="relative mx-auto hidden xl:block">
           <ul aria-label="Main Menu" role="menubar">
             <li class="
-                  inline-block px-2.5
-                  2xl:px-[17px]
-                  py-[29px] group
-                " role="none">
+                      inline-block px-2.5
+                      2xl:px-[17px]
+                      py-[29px] group
+                    " role="none">
               <NuxtLink rel="noopener noreferrer" class="
-                    font-medium
-                    2xl:text-[16px]
-                    flex items-center leading-snug text-secondary
-                    dark:text-white
-                  " to="#!" id="nav-1" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Home<i
+                        font-medium
+                        2xl:text-[16px]
+                        flex items-center leading-snug text-secondary
+                        dark:text-white
+                      " to="#!" id="nav-1" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Home<i
                   class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <div class="
-                    w-[1170px]
-                    flex
-                    flex-wrap
-                    absolute
-                    z-20
-                    top-full
-                    mt-5
-                    invisible
-                    opacity-0
-                    pt-7.5
-                    pb-[34px]
-                    px-3.8
-                    shadow-2md
-                    shadow-black/5
-                    bg-white
-                    border-b-4
-                    border-b-primary
-                    transition-all
-                    duration-300
-                    left-1/2
-                    -translate-x-1/2
-                    group-hover:visible
-                    group-hover:opacity-100
-                    group-hover:mt-0
-                    group-hover:pointer-events-auto
-                    group-focus-within:visible
-                    group-focus-within:opacity-100
-                    group-focus-within:mt-0
-                    group-focus-within:pointer-events-auto
-                    dark:bg-[#161821]
-                    dark:text-white
-                  ">
+                        w-[1170px]
+                        flex
+                        flex-wrap
+                        absolute
+                        z-20
+                        top-full
+                        mt-5
+                        invisible
+                        opacity-0
+                        pt-7.5
+                        pb-[34px]
+                        px-3.8
+                        shadow-2md
+                        shadow-black/5
+                        bg-white
+                        border-b-4
+                        border-b-primary
+                        transition-all
+                        duration-300
+                        left-1/2
+                        -translate-x-1/2
+                        group-hover:visible
+                        group-hover:opacity-100
+                        group-hover:mt-0
+                        group-hover:pointer-events-auto
+                        group-focus-within:visible
+                        group-focus-within:opacity-100
+                        group-focus-within:mt-0
+                        group-focus-within:pointer-events-auto
+                        dark:bg-[#161821]
+                        dark:text-white
+                      ">
                 <div class="px-3.8 shrink-0 grow-0 w-1/4 basis-1/4">
                   <h2 class="sr-only">Group 01</h2>
                   <ul>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            dark:hover:text-primary
-                          " to="/frontend-template">MaxCoach Education<span class="
-                              inline-flex
-                              justify-center
-                              items-center
-                              leading-none
-                              text-white
-                              bg-strawGradient
-                              pt-1
-                              px-2
-                              pb-[3px]
-                              text-[11px]
-                              rounded-sm
-                              ml-2.5
-                              font-bold
-                              tracking-wide
-                              uppercase
-                            ">hot</span></NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                dark:hover:text-primary
+                              " to="/frontend-template">MaxCoach Education<span class="
+                                  inline-flex
+                                  justify-center
+                                  items-center
+                                  leading-none
+                                  text-white
+                                  bg-strawGradient
+                                  pt-1
+                                  px-2
+                                  pb-[3px]
+                                  text-[11px]
+                                  rounded-sm
+                                  ml-2.5
+                                  font-bold
+                                  tracking-wide
+                                  uppercase
+                                ">hot</span></NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            dark:hover:text-primary
-                          " to="/frontend-template/home/courseportal">Course Portal</NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                dark:hover:text-primary
+                              " to="/frontend-template/home/courseportal">Course Portal</NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            dark:hover:text-primary
-                          " to="/frontend-template/home/distantlearning">Distant Learning<span class="
-                              inline-flex
-                              justify-center
-                              items-center
-                              leading-none
-                              text-white
-                              bg-strawGradient
-                              pt-1
-                              px-2
-                              pb-[3px]
-                              text-[11px]
-                              rounded-sm
-                              ml-2.5
-                              font-bold
-                              tracking-wide
-                              uppercase
-                            ">hot</span></NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                dark:hover:text-primary
+                              " to="/frontend-template/home/distantlearning">Distant Learning<span class="
+                                  inline-flex
+                                  justify-center
+                                  items-center
+                                  leading-none
+                                  text-white
+                                  bg-strawGradient
+                                  pt-1
+                                  px-2
+                                  pb-[3px]
+                                  text-[11px]
+                                  rounded-sm
+                                  ml-2.5
+                                  font-bold
+                                  tracking-wide
+                                  uppercase
+                                ">hot</span></NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            dark:hover:text-primary
-                          " to="/frontend-template/home/multimediapedagogy">Multimedia Pedagogy</NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                dark:hover:text-primary
+                              " to="/frontend-template/home/multimediapedagogy">Multimedia Pedagogy</NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            dark:hover:text-primary
-                          " to="/frontend-template/home/modernschooling">Modern Schooling</NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                dark:hover:text-primary
+                              " to="/frontend-template/home/modernschooling">Modern Schooling</NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            dark:hover:text-primary
-                          " to="/frontend-template/home/remotetraining">Remote Training</NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                dark:hover:text-primary
+                              " to="/frontend-template/home/remotetraining">Remote Training</NuxtLink>
                     </li>
                   </ul>
                 </div>
@@ -153,141 +154,141 @@
                   <ul>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            pointer-events-none
-                          " to="/frontend-template">Health Coaching<span class="
-                              inline-flex
-                              justify-center
-                              items-center
-                              leading-none
-                              text-white
-                              bg-primary
-                              pt-1
-                              px-2
-                              pb-[3px]
-                              text-[11px]
-                              rounded-sm
-                              ml-2.5
-                              font-bold
-                              tracking-wide
-                              uppercase
-                            ">coming soon</span></NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                pointer-events-none
+                              " to="/frontend-template">Health Coaching<span class="
+                                  inline-flex
+                                  justify-center
+                                  items-center
+                                  leading-none
+                                  text-white
+                                  bg-primary
+                                  pt-1
+                                  px-2
+                                  pb-[3px]
+                                  text-[11px]
+                                  rounded-sm
+                                  ml-2.5
+                                  font-bold
+                                  tracking-wide
+                                  uppercase
+                                ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            pointer-events-none
-                          " to="/frontend-template">Gym Coaching<span class="
-                              inline-flex
-                              justify-center
-                              items-center
-                              leading-none
-                              text-white
-                              bg-primary
-                              pt-1
-                              px-2
-                              pb-[3px]
-                              text-[11px]
-                              rounded-sm
-                              ml-2.5
-                              font-bold
-                              tracking-wide
-                              uppercase
-                            ">coming soon</span></NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                pointer-events-none
+                              " to="/frontend-template">Gym Coaching<span class="
+                                  inline-flex
+                                  justify-center
+                                  items-center
+                                  leading-none
+                                  text-white
+                                  bg-primary
+                                  pt-1
+                                  px-2
+                                  pb-[3px]
+                                  text-[11px]
+                                  rounded-sm
+                                  ml-2.5
+                                  font-bold
+                                  tracking-wide
+                                  uppercase
+                                ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            pointer-events-none
-                          " to="/frontend-template">Business<span class="
-                              inline-flex
-                              justify-center
-                              items-center
-                              leading-none
-                              text-white
-                              bg-primary
-                              pt-1
-                              px-2
-                              pb-[3px]
-                              text-[11px]
-                              rounded-sm
-                              ml-2.5
-                              font-bold
-                              tracking-wide
-                              uppercase
-                            ">coming soon</span></NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                pointer-events-none
+                              " to="/frontend-template">Business<span class="
+                                  inline-flex
+                                  justify-center
+                                  items-center
+                                  leading-none
+                                  text-white
+                                  bg-primary
+                                  pt-1
+                                  px-2
+                                  pb-[3px]
+                                  text-[11px]
+                                  rounded-sm
+                                  ml-2.5
+                                  font-bold
+                                  tracking-wide
+                                  uppercase
+                                ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            pointer-events-none
-                          " to="/frontend-template">Artist<span class="
-                              inline-flex
-                              justify-center
-                              items-center
-                              leading-none
-                              text-white
-                              bg-primary
-                              pt-1
-                              px-2
-                              pb-[3px]
-                              text-[11px]
-                              rounded-sm
-                              ml-2.5
-                              font-bold
-                              tracking-wide
-                              uppercase
-                            ">coming soon</span></NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                pointer-events-none
+                              " to="/frontend-template">Artist<span class="
+                                  inline-flex
+                                  justify-center
+                                  items-center
+                                  leading-none
+                                  text-white
+                                  bg-primary
+                                  pt-1
+                                  px-2
+                                  pb-[3px]
+                                  text-[11px]
+                                  rounded-sm
+                                  ml-2.5
+                                  font-bold
+                                  tracking-wide
+                                  uppercase
+                                ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            pointer-events-none
-                          " to="/frontend-template">Kitchen Coach<span class="
-                              inline-flex
-                              justify-center
-                              items-center
-                              leading-none
-                              text-white
-                              bg-primary
-                              pt-1
-                              px-2
-                              pb-[3px]
-                              text-[11px]
-                              rounded-sm
-                              ml-2.5
-                              font-bold
-                              tracking-wide
-                              uppercase
-                            ">coming soon</span></NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                pointer-events-none
+                              " to="/frontend-template">Kitchen Coach<span class="
+                                  inline-flex
+                                  justify-center
+                                  items-center
+                                  leading-none
+                                  text-white
+                                  bg-primary
+                                  pt-1
+                                  px-2
+                                  pb-[3px]
+                                  text-[11px]
+                                  rounded-sm
+                                  ml-2.5
+                                  font-bold
+                                  tracking-wide
+                                  uppercase
+                                ">coming soon</span></NuxtLink>
                     </li>
                     <li class="relative">
                       <NuxtLink class="
-                            leading-relaxed block font-medium py-2
-                            hover:text-heading
-                            pointer-events-none
-                          " to="/frontend-template">Motivation<span class="
-                              inline-flex
-                              justify-center
-                              items-center
-                              leading-none
-                              text-white
-                              bg-primary
-                              pt-1
-                              px-2
-                              pb-[3px]
-                              text-[11px]
-                              rounded-sm
-                              ml-2.5
-                              font-bold
-                              tracking-wide
-                              uppercase
-                            ">coming soon</span></NuxtLink>
+                                leading-relaxed block font-medium py-2
+                                hover:text-heading
+                                pointer-events-none
+                              " to="/frontend-template">Motivation<span class="
+                                  inline-flex
+                                  justify-center
+                                  items-center
+                                  leading-none
+                                  text-white
+                                  bg-primary
+                                  pt-1
+                                  px-2
+                                  pb-[3px]
+                                  text-[11px]
+                                  rounded-sm
+                                  ml-2.5
+                                  font-bold
+                                  tracking-wide
+                                  uppercase
+                                ">coming soon</span></NuxtLink>
                     </li>
                   </ul>
                 </div>
@@ -298,307 +299,293 @@
               </div>
             </li>
             <li class="
-                  inline-block px-2.5
-                  2xl:px-[17px]
-                  py-[29px] group relative
-                " role="none">
+                      inline-block px-2.5
+                      2xl:px-[17px]
+                      py-[29px] group relative
+                    " role="none">
               <NuxtLink rel="noopener noreferrer" class="
-                    font-medium
-                    2xl:text-[16px]
-                    flex items-center leading-snug text-secondary
-                    dark:text-white
-                  " to="#!" id="nav-2" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Pages<i
-                  class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
+                        font-medium
+                        2xl:text-[16px]
+                        flex items-center leading-snug text-secondary
+                        dark:text-white
+                      " to="#!" id="nav-2" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">
+                Pages<i class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <ul class="
-                    absolute
-                    z-20
-                    top-full
-                    left-0
-                    w-60
-                    mt-5
-                    py-4
-                    transition-all
-                    duration-400
-                    bg-white
-                    border-b-4
-                    border-b-primary
-                    shadow-2md
-                    shadow-black/5
-                    visible
-                    opacity-0
-                    pointer-events-none
-                    group-hover:visible
-                    group-hover:opacity-100
-                    group-hover:mt-0
-                    group-hover:pointer-events-auto
-                    group-focus-within:visible
-                    group-focus-within:opacity-100
-                    group-focus-within:mt-0
-                    group-focus-within:pointer-events-auto
-                    dark:bg-[#161821]
-                    text-secondary
-                    dark:text-white
-                  " role="menu">
+                        absolute
+                        z-20
+                        top-full
+                        left-0
+                        w-60
+                        mt-5
+                        py-4
+                        transition-all
+                        duration-400
+                        bg-white
+                        border-b-4
+                        border-b-primary
+                        shadow-2md
+                        shadow-black/5
+                        visible
+                        opacity-0
+                        pointer-events-none
+                        group-hover:visible
+                        group-hover:opacity-100
+                        group-hover:mt-0
+                        group-hover:pointer-events-auto
+                        group-focus-within:visible
+                        group-focus-within:opacity-100
+                        group-focus-within:mt-0
+                        group-focus-within:pointer-events-auto
+                        dark:bg-[#161821]
+                        text-secondary
+                        dark:text-white
+                      " role="menu">
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/about/aboutme">About me</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/about/aboutme">About me</NuxtLink>
                 </li>
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/about/aboutusone">About us 01</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/about/aboutusone">About us 01</NuxtLink>
                 </li>
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/about/aboutustwo">About us 02</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/about/aboutustwo">About us 02</NuxtLink>
                 </li>
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/about/contactme">Contact me</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/about/contactme">Contact me</NuxtLink>
                 </li>
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/about/contactus">Contact us</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/about/contactus">Contact us</NuxtLink>
                 </li>
               </ul>
             </li>
             <li class="
-                  inline-block px-2.5
-                  2xl:px-[17px]
-                  py-[29px] group relative
-                " role="none">
+                      inline-block px-2.5
+                      2xl:px-[17px]
+                      py-[29px] group relative
+                    " role="none">
               <NuxtLink rel="noopener noreferrer" class="
-                    font-medium
-                    2xl:text-[16px]
-                    flex items-center leading-snug text-secondary
-                    dark:text-white
-                  " to="#!" id="nav-3" role="menuitem" tabindex="0" aria-haspopup="true"
-                aria-expanded="false">Courses<i class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
+                        font-medium
+                        2xl:text-[16px]
+                        flex items-center leading-snug text-secondary
+                        dark:text-white
+                      " to="#!" id="nav-3" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">
+                Courses<i class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <ul class="
-                    absolute
-                    z-20
-                    top-full
-                    left-0
-                    w-60
-                    mt-5
-                    py-4
-                    transition-all
-                    duration-400
-                    bg-white
-                    border-b-4
-                    border-b-primary
-                    shadow-2md
-                    shadow-black/5
-                    visible
-                    opacity-0
-                    pointer-events-none
-                    group-hover:visible
-                    group-hover:opacity-100
-                    group-hover:mt-0
-                    group-hover:pointer-events-auto
-                    group-focus-within:visible
-                    group-focus-within:opacity-100
-                    group-focus-within:mt-0
-                    group-focus-within:pointer-events-auto
-                    dark:bg-[#161821]
-                    dark:text-white
-                  " role="menu">
+                        absolute
+                        z-20
+                        top-full
+                        left-0
+                        w-60
+                        mt-5
+                        py-4
+                        transition-all
+                        duration-400
+                        bg-white
+                        border-b-4
+                        border-b-primary
+                        shadow-2md
+                        shadow-black/5
+                        visible
+                        opacity-0
+                        pointer-events-none
+                        group-hover:visible
+                        group-hover:opacity-100
+                        group-hover:mt-0
+                        group-hover:pointer-events-auto
+                        group-focus-within:visible
+                        group-focus-within:opacity-100
+                        group-focus-within:mt-0
+                        group-focus-within:pointer-events-auto
+                        dark:bg-[#161821]
+                        dark:text-white
+                      " role="menu">
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/courses/coursegridone">Courses Grid 01</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/courses/coursegridone">Courses Grid 01</NuxtLink>
                 </li>
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/courses/coursegridtwo">Courses Grid 02</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/courses/coursegridtwo">Courses Grid 02</NuxtLink>
                 </li>
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/courses/coursegridthree">Courses Grid 03</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/courses/coursegridthree">Courses Grid 03</NuxtLink>
                 </li>
                 <!-- <li role="none" class="relative">
-                  <NuxtLink
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    to="/frontend-template/membership-levels"
-                    >Membership Levels</a
-                  >
+                  <NuxtLink class="
+                        flex
+                        items-center
+                        text-secondary
+                        px-7.5
+                        py-2
+                      " role="menuitem" to="/frontend-template/membership-levels">Membership Levels</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <NuxtLink
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    to="/become-a-teacher"
-                    >Become a Teacher</a
-                  >
+                  <NuxtLink class="
+                        flex
+                        items-center
+                        text-secondary
+                        px-7.5
+                        py-2
+                      " role="menuitem" to="/become-a-teacher">Become a Teacher</NuxtLink>
                 </li>
                 <li role="none" class="relative">
-                  <NuxtLink
-                    class="
-                      flex
-                      items-center
-                      text-secondary
-                      px-7.5
-                      py-2
-                    "
-                    role="menuitem"
-                    to="/profile"
-                    >Profile</a
-                  >
+                  <NuxtLink class="
+                        flex
+                        items-center
+                        text-secondary
+                        px-7.5
+                        py-2
+                      " role="menuitem" to="/profile">Profile</NuxtLink>
                 </li> -->
               </ul>
             </li>
             <li class="
-                  inline-block px-2.5
-                  2xl:px-[17px]
-                  py-[29px] group relative
-                " role="none">
+                    inline-block px-2.5
+                    2xl:px-[17px]
+                    py-[29px] group relative
+                  " role="none">
               <NuxtLink rel="noopener noreferrer" class="
-                    font-medium
-                    2xl:text-[16px]
-                    flex items-center leading-snug text-secondary
-                    dark:text-white
-                  " to="#!" id="nav-4" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Event<i
+                      font-medium
+                      2xl:text-[16px]
+                      flex items-center leading-snug text-secondary
+                      dark:text-white
+                    " to="#!" id="nav-4" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Event<i
                   class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <ul class="
-                    absolute
-                    z-20
-                    top-full
-                    left-0
-                    w-60
-                    mt-5
-                    py-4
-                    transition-all
-                    duration-400
-                    bg-white
-                    border-b-4
-                    border-b-primary
-                    shadow-2md
-                    shadow-black/5
-                    visible
-                    opacity-0
-                    pointer-events-none
-                    group-hover:visible
-                    group-hover:opacity-100
-                    group-hover:mt-0
-                    group-hover:pointer-events-auto
-                    group-focus-within:visible
-                    group-focus-within:opacity-100
-                    group-focus-within:mt-0
-                    group-focus-within:pointer-events-auto
-                    dark:bg-[#161821]
-                    text-secondary
-                    dark:text-white
-                  " role="menu">
+                      absolute
+                      z-20
+                      top-full
+                      left-0
+                      w-60
+                      mt-5
+                      py-4
+                      transition-all
+                      duration-400
+                      bg-white
+                      border-b-4
+                      border-b-primary
+                      shadow-2md
+                      shadow-black/5
+                      visible
+                      opacity-0
+                      pointer-events-none
+                      group-hover:visible
+                      group-hover:opacity-100
+                      group-hover:mt-0
+                      group-hover:pointer-events-auto
+                      group-focus-within:visible
+                      group-focus-within:opacity-100
+                      group-focus-within:mt-0
+                      group-focus-within:pointer-events-auto
+                      dark:bg-[#161821]
+                      text-secondary
+                      dark:text-white
+                    " role="menu">
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/event/events">Event</NuxtLink>
+                          flex
+                          items-center
+                          px-7.5
+                          py-2
+                        " role="menuitem" to="/frontend-template/event/events">Event</NuxtLink>
                 </li>
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/event/zoommeetings">Zoom Meetings</NuxtLink>
+                          flex
+                          items-center
+                          px-7.5
+                          py-2
+                        " role="menuitem" to="/frontend-template/event/zoommeetings">Zoom Meetings</NuxtLink>
                 </li>
               </ul>
             </li>
+
             <li class="
-                  inline-block px-2.5
-                  2xl:px-[17px]
-                  py-[29px] group relative
-                " role="none">
+                      inline-block px-2.5
+                      2xl:px-[17px]
+                      py-[29px] group relative
+                    " role="none">
               <NuxtLink rel="noopener noreferrer" class="
-                    font-medium
-                    2xl:text-[16px]
-                    flex items-center leading-snug text-secondary
-                    dark:text-white
-                  " to="#!" id="nav-5" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Blog<i
+                        font-medium
+                        2xl:text-[16px]
+                        flex items-center leading-snug text-secondary
+                        dark:text-white
+                      " to="#!" id="nav-5" role="menuitem" tabindex="0" aria-haspopup="true" aria-expanded="false">Blog<i
                   class="fa fa-chevron-down ml-2 text-xs"></i></NuxtLink>
               <ul class="
-                    absolute
-                    z-20
-                    top-full
-                    left-0
-                    w-60
-                    mt-5
-                    py-4
-                    transition-all
-                    duration-400
-                    bg-white
-                    border-b-4
-                    border-b-primary
-                    shadow-2md
-                    shadow-black/5
-                    visible
-                    opacity-0
-                    pointer-events-none
-                    group-hover:visible
-                    group-hover:opacity-100
-                    group-hover:mt-0
-                    group-hover:pointer-events-auto
-                    group-focus-within:visible
-                    group-focus-within:opacity-100
-                    group-focus-within:mt-0
-                    group-focus-within:pointer-events-auto
-                    dark:bg-[#161821]
-                    text-secondary
-                    dark:text-white
-                  " role="menu">
+                        absolute
+                        z-20
+                        top-full
+                        left-0
+                        w-60
+                        mt-5
+                        py-4
+                        transition-all
+                        duration-400
+                        bg-white
+                        border-b-4
+                        border-b-primary
+                        shadow-2md
+                        shadow-black/5
+                        visible
+                        opacity-0
+                        pointer-events-none
+                        group-hover:visible
+                        group-hover:opacity-100
+                        group-hover:mt-0
+                        group-hover:pointer-events-auto
+                        group-focus-within:visible
+                        group-focus-within:opacity-100
+                        group-focus-within:mt-0
+                        group-focus-within:pointer-events-auto
+                        dark:bg-[#161821]
+                        text-secondary
+                        dark:text-white
+                      " role="menu">
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/blog/bloggrid">Blog Grid</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/blog/bloggrid">Blog Grid</NuxtLink>
                 </li>
                 <!-- <li role="none" class="relative">
                   <NuxtLink
@@ -611,16 +598,15 @@
                     "
                     role="menuitem"
                     to="/frontend-template/event/events"
-                    >Blog Grid Sidebar</a
-                  >
+                    >Blog Grid Sidebar</NuxtLink>
                 </li> -->
                 <li role="none" class="relative">
                   <NuxtLink class="
-                        flex
-                        items-center
-                        px-7.5
-                        py-2
-                      " role="menuitem" to="/frontend-template/blog/blogclassic">Blog Classic</NuxtLink>
+                            flex
+                            items-center
+                            px-7.5
+                            py-2
+                          " role="menuitem" to="/frontend-template/blog/blogclassic">Blog Classic</NuxtLink>
                 </li>
                 <!-- <li role="none" class="relative">
                   <NuxtLink
@@ -639,16 +625,17 @@
               </ul>
             </li>
             <li class="
-                  inline-block px-2.5
-                  2xl:px-[17px]
-                  py-[29px] group
-                " role="none">
+                      inline-block px-2.5
+                      2xl:px-[17px]
+                      py-[29px] group
+                    " role="none">
               <NuxtLink class="
-                    font-medium
-                    2xl:text-[16px]
-                    flex items-center leading-snug text-secondary
-                    dark:text-white
-                  " id="nav-6" role="menuitem" tabindex="0" to="/frontend-template/about/contactus">Contact Us</NuxtLink>
+                        font-medium
+                        2xl:text-[16px]
+                        flex items-center leading-snug text-secondary
+                        dark:text-white
+                      " id="nav-6" role="menuitem" tabindex="0" to="/frontend-template/about/contactus">Contact Us
+              </NuxtLink>
             </li>
           </ul>
         </nav>
@@ -674,196 +661,196 @@
             <!-- <i @click="setDarkMode(false)" v-show="darkMode" class="far fa-sunrise text-lg"></i> -->
           </div>
 
-          <NuxtLink class="inline-block px-2.5 py-1.5 text-dark-50 dark:text-white" aria-label="User Profile" to="/profile"><i
-              class="far fa-user-circle text-lg"></i></NuxtLink>
+          <NuxtLink class="inline-block px-2.5 py-1.5 text-dark-50 dark:text-white" aria-label="User Profile"
+            to="/profile"><i class="far fa-user-circle text-lg"></i></NuxtLink>
 
 
           <div class="hidden md:block md:max-w-[250px] md:pl-2.5">
             <form class="relative">
               <label for="search" class="sr-only">Search For</label><input type="text" class="
-                    form-control
-                    block
-                    w-full
-                    h-14
-                    rounded
-                    py-[0.188rem]
-                    px-5
-                    text-base
-                    text-body
-                    border
-                    border-gray-200
-                    dark:border-gray-500
-                    placeholder-body
-                    focus:shadow-none
-                    focus:outline-0
-                    focus:text-body
-                    focus:bg-white
+                        form-control
+                        block
+                        w-full
+                        h-14
+                        rounded
+                        py-[0.188rem]
+                        px-5
+                        text-base
+                        text-body
+                        border
+                        border-gray-200
+                        dark:border-gray-500
+                        placeholder-body
+                        focus:shadow-none
+                        focus:outline-0
+                        focus:text-body
+                        focus:bg-white
                   
-                    focus:border-primary
-                    bg-gray-200 max-h-[48px] pr-[50px]
-                    dark:bg-black
-                    dark:text-white
-                  " id="search" name="search" placeholder="Search..." value="" /><button type="submit"
+                        focus:border-primary
+                        bg-gray-200 max-h-[48px] pr-[50px]
+                        dark:bg-black
+                        dark:text-white
+                      " id="search" name="search" placeholder="Search..." value="" /><button type="submit"
                 aria-label="Search" class="
-                    absolute
-                    right-0
-                    top-0
-                    w-12
-                    h-12
-                    rounded-tr
-                    rounded-br
-                    transition-colors
-                    text-primary
-                    flex
-                    justify-center
-                    items-center
-                    hover:bg-primary hover:text-white
-                  ">
+                        absolute
+                        right-0
+                        top-0
+                        w-12
+                        h-12
+                        rounded-tr
+                        rounded-br
+                        transition-colors
+                        text-primary
+                        flex
+                        justify-center
+                        items-center
+                        hover:bg-primary hover:text-white
+                      ">
                 <i class="fas fa-search"></i>
               </button>
             </form>
           </div>
           <div class="md:hidden overflow-hidden">
             <button type="button" class="
-                  inline-block px-2.5 py-1.5
-                  md:hidden
-                  text-dark-50
-                " aria-label="Search Toggle">
+                      inline-block px-2.5 py-1.5
+                      md:hidden
+                      text-dark-50
+                    " aria-label="Search Toggle">
               <i class="far fa-search text-lg"></i>
             </button>
           </div>
           <button aria-label="Toggle Menu" type="button" class="toggle group pl-5 xl:hidden">
             <i class="
-                  icon-top
-                  relative block overflow-hidden w-6 h-0.5
-                  before:absolute
-                  before:content-['']
-                  before:top-0
-                  before:left-0
-                  before:flex-100
-                  before:w-full
-                  before:h-full
-                  before:scale-x-[1px]
-                  before:transition-transform
-                  before:duration-600
-                  before:ease-in-expo
-                  after:absolute
-                  after:content-['']
-                  after:top-0
-                  after:left-0
-                  after:flex-100
-                  after:w-full
-                  after:h-full
-                  after:scale-x-0
-                  after:transition-transform
-                  after:duration-600
-                  after:ease-in-expo
-                  before:origin-right
-                  after:origin-left
-                  group-hover:before:scale-x-0
-                  group-hover:before:transition-transform
-                  group-hover:before:duration-600
-                  group-hover:before:ease-in-expo
-                  group-hover:after:scale-x-[1px]
-                  group-hover:after:transition-transform
-                  group-hover:after:duration-600
-                  group-hover:after:delay-200
-                  group-hover:after:ease-in-expo
-                  before:bg-dark
+                      icon-top
+                      relative block overflow-hidden w-6 h-0.5
+                      before:absolute
+                      before:content-['']
+                      before:top-0
+                      before:left-0
+                      before:flex-100
+                      before:w-full
+                      before:h-full
+                      before:scale-x-[1px]
+                      before:transition-transform
+                      before:duration-600
+                      before:ease-in-expo
+                      after:absolute
+                      after:content-['']
+                      after:top-0
+                      after:left-0
+                      after:flex-100
+                      after:w-full
+                      after:h-full
+                      after:scale-x-0
+                      after:transition-transform
+                      after:duration-600
+                      after:ease-in-expo
+                      before:origin-right
+                      after:origin-left
+                      group-hover:before:scale-x-0
+                      group-hover:before:transition-transform
+                      group-hover:before:duration-600
+                      group-hover:before:ease-in-expo
+                      group-hover:after:scale-x-[1px]
+                      group-hover:after:transition-transform
+                      group-hover:after:duration-600
+                      group-hover:after:delay-200
+                      group-hover:after:ease-in-expo
+                      before:bg-dark
                   
-                  after:bg-dark
-                  group-hover:before:bg-primary
-                "></i><i class="
-                  icon-middle
-                  mt-1.5
-                  relative
-                  block
-                  overflow-hidden
-                  w-6
-                  h-0.5
-                  before:absolute
-                  before:content-['']
-                  before:top-0
-                  before:left-0
-                  before:flex-100
-                  before:w-full
-                  before:h-full
-                  before:scale-x-[1px]
-                  before:transition-transform
-                  before:duration-600
-                  before:ease-in-expo
-                  after:absolute
-                  after:content-['']
-                  after:top-0
-                  after:left-0
-                  after:flex-100
-                  after:w-full
-                  after:h-full
-                  after:scale-x-0
-                  after:transition-transform
-                  after:duration-600
-                  after:ease-in-expo
-                  before:origin-left
-                  after:origin-right
-                  group-hover:before:scale-x-0
-                  group-hover:before:transition-transform
-                  group-hover:before:duration-600
-                  group-hover:before:ease-in-expo
-                  group-hover:after:scale-x-[1px]
-                  group-hover:after:transition-transform
-                  group-hover:after:duration-600
-                  group-hover:after:delay-200
-                  group-hover:after:ease-in-expo
-                  before:bg-dark
+                      after:bg-dark
+                      group-hover:before:bg-primary
+                    "></i><i class="
+                      icon-middle
+                      mt-1.5
+                      relative
+                      block
+                      overflow-hidden
+                      w-6
+                      h-0.5
+                      before:absolute
+                      before:content-['']
+                      before:top-0
+                      before:left-0
+                      before:flex-100
+                      before:w-full
+                      before:h-full
+                      before:scale-x-[1px]
+                      before:transition-transform
+                      before:duration-600
+                      before:ease-in-expo
+                      after:absolute
+                      after:content-['']
+                      after:top-0
+                      after:left-0
+                      after:flex-100
+                      after:w-full
+                      after:h-full
+                      after:scale-x-0
+                      after:transition-transform
+                      after:duration-600
+                      after:ease-in-expo
+                      before:origin-left
+                      after:origin-right
+                      group-hover:before:scale-x-0
+                      group-hover:before:transition-transform
+                      group-hover:before:duration-600
+                      group-hover:before:ease-in-expo
+                      group-hover:after:scale-x-[1px]
+                      group-hover:after:transition-transform
+                      group-hover:after:duration-600
+                      group-hover:after:delay-200
+                      group-hover:after:ease-in-expo
+                      before:bg-dark
                   
-                  after:bg-dark
-                  group-hover:before:bg-primary
-                "></i><i class="
-                  icon-bottom
-                  mt-1.5
-                  relative
-                  block
-                  overflow-hidden
-                  w-6
-                  h-0.5
-                  before:absolute
-                  before:content-['']
-                  before:top-0
-                  before:left-0
-                  before:flex-100
-                  before:w-full
-                  before:h-full
-                  before:scale-x-[1px]
-                  before:transition-transform
-                  before:duration-600
-                  before:ease-in-expo
-                  after:absolute
-                  after:content-['']
-                  after:top-0
-                  after:left-0
-                  after:flex-100
-                  after:w-full
-                  after:h-full
-                  after:scale-x-0
-                  after:transition-transform
-                  after:duration-600
-                  after:ease-in-expo
-                  before:origin-right
-                  after:origin-left
-                  group-hover:before:scale-x-0
-                  group-hover:before:transition-transform
-                  group-hover:before:duration-600
-                  group-hover:before:ease-in-expo
-                  group-hover:after:scale-x-[1px]
-                  group-hover:after:transition-transform
-                  group-hover:after:duration-600
-                  group-hover:after:delay-200
-                  group-hover:after:ease-in-expo
-                  before:bg-dark
+                      after:bg-dark
+                      group-hover:before:bg-primary
+                    "></i><i class="
+                      icon-bottom
+                      mt-1.5
+                      relative
+                      block
+                      overflow-hidden
+                      w-6
+                      h-0.5
+                      before:absolute
+                      before:content-['']
+                      before:top-0
+                      before:left-0
+                      before:flex-100
+                      before:w-full
+                      before:h-full
+                      before:scale-x-[1px]
+                      before:transition-transform
+                      before:duration-600
+                      before:ease-in-expo
+                      after:absolute
+                      after:content-['']
+                      after:top-0
+                      after:left-0
+                      after:flex-100
+                      after:w-full
+                      after:h-full
+                      after:scale-x-0
+                      after:transition-transform
+                      after:duration-600
+                      after:ease-in-expo
+                      before:origin-right
+                      after:origin-left
+                      group-hover:before:scale-x-0
+                      group-hover:before:transition-transform
+                      group-hover:before:duration-600
+                      group-hover:before:ease-in-expo
+                      group-hover:after:scale-x-[1px]
+                      group-hover:after:transition-transform
+                      group-hover:after:duration-600
+                      group-hover:after:delay-200
+                      group-hover:after:ease-in-expo
+                      before:bg-dark
                   
-                  after:bg-dark
-                  group-hover:before:bg-primary
-                "></i>
+                      after:bg-dark
+                      group-hover:before:bg-primary
+                    "></i>
           </button>
         </div>
       </div>
@@ -878,12 +865,17 @@ const styleStore = useStyleStore()
 const { darkMode } = storeToRefs(styleStore)
 const { setDarkMode } = styleStore
 
+
 </script>
 
 
 <style>
 .header-inner {
   min-height: 80px;
+}
+
+.navbar.active {
+  color: #20AD96;
 }
 
 .header-section.header-shadow .header-inner {

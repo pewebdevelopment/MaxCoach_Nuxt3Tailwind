@@ -3,23 +3,23 @@
     <div class="container">
       <div class="py-[100px]">
         <courseheader>
-          <template v-slot:title>Events</template>
+          <template v-slot:title><span class="dark:text-white text-[#333] "> Events </span></template>
         </courseheader>
       </div>
       <div class="px-[80px]">
         <div class="flex justify-between items-start">
           <p class="text-[15px] text-[#696969] dark:text-[#ddd] font-normal leading-[1.74]">
-            We found 12 courses available for you
+            We found 09 courses available for you
           </p>
 
-          <div class="select relative">
-            <span
-              class="absolute top-0 bottom-0 right-0 w-[54px] flex justify-center items-center"
-            >
-              <icon class="w-10 h-10 text-gray-400" name="uil:angle-down" />
+          <div class="w-[300px] h-[54px] mb-2.5 px-2 py-0; relative">
+            <span class="absolute top-0 bottom-0 right-0 w-[54px] flex justify-center items-center">
+              
+              
             </span>
-            <select class="bg-[#fff] rounded text-[#696969]" id="cars" name="cars" aria-placeholder="Default">
-              <div class="options">
+            <select id="cars" class="bg-[#fff] rounded text-[#696969] w-full h-full px-3 py-0 " name="cars"
+              aria-placeholder="Default">
+              <div class="options text-[#696969]">
                 <option>Default</option>
                 <option value="popularity">Popularity</option>
                 <option value="latest">Latest</option>
@@ -32,7 +32,7 @@
       </div>
       <div class="pb-[100px] px-[80px]">
         <eventscard />
-        <loadmorebtn />
+        
       </div>
     </div>
   </div>

@@ -16,6 +16,7 @@
             dark:border-white
             shadow
           "
+          @click="showMore"
         >
           Load More
           <i class="fa fa-ramp-loading h-5 w-5"></i>

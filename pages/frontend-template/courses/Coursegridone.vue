@@ -8,24 +8,16 @@
       </div>
       <div>
         <div class="flex justify-between items-start">
-          <p
-            class="text-[15px] text-[#696969] dark:text-[#ddd] font-normal leading-[1.74]"
-          >
+          <p class="text-[15px] text-[#696969] dark:text-[#ddd] font-normal leading-[1.74]">
             We found 12 courses available for you
           </p>
 
-          <div class="select relative">
-            <span
-              class="absolute top-0 bottom-0 right-0 w-[54px] flex justify-center items-center"
-            >
+          <div class="w-[300px] h-[54px] mb-2.5 px-2 py-0; relative">
+            <span class="absolute top-0 bottom-0 right-0 w-[54px] flex justify-center items-center">
               <icon class="w-10 h-10 text-gray-400" name="uil:angle-down" />
             </span>
-            <select
-              id="cars"
-              class="bg-[#fff] rounded text-[#696969]"
-              name="cars"
-              aria-placeholder="Default"
-            >
+            <select id="cars" class="bg-[#fff] rounded text-[#696969] w-full h-full px-3 py-0 " name="cars"
+              aria-placeholder="Default">
               <div class="options text-[#696969]">
                 <option>Default</option>
                 <option value="popularity">Popularity</option>
@@ -39,7 +31,7 @@
       </div>
       <div class="pb-[100px]">
         <coursecardone />
-        <loadmorebtn />
+
       </div>
     </div>
   </div>
