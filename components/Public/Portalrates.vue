@@ -1,18 +1,18 @@
 <template>
   <div
-    class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-center px-5 md:px-[100px] blue py-[50px]"
+    class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-center px-5 md:px-[100px] dark:bg-[#161821] bg-white py-[50px]"
   >
-    <div v-for="rate in learningrates" :key="rate.number" class="rate">
+    <div v-for="rate in learningrates" :key="rate.number" class="flex flex-col justify-center items-center px-3 py-0">
       <div class="mb-[50px] lg:mb-[20px]">
         <div
-          class="text-[18px] lg:text-[24px] font-bold max-w-[180px] text-white mb-[20px] leading-[1.34]"
+          class="text-[18px] lg:text-[24px] font-bold max-w-[180px] dark:text-white text-[#3F3A64]  mb-[20px] leading-[1.34]"
         >
           {{ rate.type }}
         </div>
         <h2 class="large-rate">
           {{ rate.number }}
         </h2>
-        <h4 class="title">{{ rate.title }}</h4>
+        <h4 class="dark:text-[white] text-[#696969] text-[15px] font-bold uppercase tracking-[2px] leading-[1.34] mt-3.5">{{ rate.title }}</h4>
       </div>
     </div>
   </div>
@@ -49,21 +49,5 @@ learningrates: [{
 </script>
 
 <style scoped>
-.title {
-  margin-top: 14px;
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 1.34;
-}
 
-.rate {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 12px;
-}
 </style>

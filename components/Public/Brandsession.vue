@@ -1,5 +1,5 @@
 <template>
-  <div class="py-[100px] bg-[#161821]">
+  <div class="py-[100px] dark:bg-[#161821] bg-white">
     <div class=" px-40">
       <ImageCarousel :images="[
         'images/brand/client-logo-01.png',

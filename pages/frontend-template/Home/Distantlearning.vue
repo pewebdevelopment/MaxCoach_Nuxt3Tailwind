@@ -26,8 +26,8 @@
           viewBox="0 0 100 100"
           preserveAspectRatio="none"
           height="100"
-          class="w-full"
-          fill="#161821"
+          class="w-full fill-white dark:fill-[#161821]"
+          
           
           
         >

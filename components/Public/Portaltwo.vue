@@ -1,5 +1,5 @@
 <template>
-  <div class="padding-responsive blue lg:rounded-br-[50%]">
+  <div class="padding-responsive blue lg:rounded-br-[50%] bg-white dark:bg-[#161821]">
     <div>
       <div ref="animate">
         <headers class="text-center">
@@ -63,11 +63,11 @@
                 Get started <span class="font-bold">effortlessly</span>
               </div>
             </h4>
-            <h2 class="mb-4 text-[28px] lg:text-[48px] text-white font-[700] leading-[56px]">
+            <h2 class="mb-4 text-[28px] lg:text-[48px] dark:text-white text-[#3f3a64] font-[700] leading-[56px]">
               Enjoy Our
               <span class="text-[#20AD96] font-[300]">Companionship</span>
             </h2>
-            <p class="text-[#ddd] text-[15px] leading-[1.74] mb-5">
+            <p class="dark:text-[#ddd] text-[#696969] text-[15px] leading-[1.74] mb-5">
               Spend some time to visit our website or head office and discover
               our current courses, enrollment procedure, and registration
               deadline. We're opening new classes every beginning of each month.

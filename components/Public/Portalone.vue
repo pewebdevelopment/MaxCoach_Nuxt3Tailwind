@@ -1,5 +1,5 @@
 <template>
-  <div class="px-5 md:px-[100px] py-[100px] bg-[#111]">
+  <div class="px-5 md:px-[100px] py-[100px] dark:bg-[#111] bg-[#f8f8f8]">
     <div ref="animate">
       <headers class="text-center" >
       <template v-slot:headerone>STIMULATED TO LEARN?</template>
